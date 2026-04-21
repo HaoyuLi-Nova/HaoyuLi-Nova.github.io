@@ -32,7 +32,7 @@
 </div>
 
 - **PsycheAgents: A Multi-Modal Agentic Framework for Psychiatric Differential Diagnosis** — 李浩宇（第一作者），等。**npj Digital Medicine**（*审稿中*）。
-- **PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition** — 李浩宇（第二作者），等。**npj Digital Medicine**（*审稿中*）。
+- **PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition** — 李浩宇（第二作者），等。**npj Digital Medicine**（*审稿中*）。**数据集：** [Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3（2025）。
 - **Rectified Flow for Electronic Health Record Synthesis** — 李浩宇（第一作者），等（*已投稿 npj Digital Medicine*）。
 - **Membership Inference Attacks in Re-identification** — 李浩宇（第一作者），等（*已投稿 IJCV*）。
 
@@ -62,7 +62,7 @@
 - **武汉大学 MARS 实验室** — *科研助理* · 2025 年 4 月 – 至今 · 武汉 · 导师：叶茫教授  
   - **多中心联邦学习（精神医学方向）：** 拓扑感知联邦原型方法；在非独立同分布场景下采用无监督聚类原型缓解 “奇美拉原型” 问题；在多模态基准上取得较强结果。  
   - **PsycheAgents：** 面向鉴别诊断的多模态智能体框架；层次化推理受临床会诊流程启发。  
-  - **PsyCare：** 共同构建多维度精神医学基准；临床数据发布于 **Harvard Dataverse**，支持隐私保护下的医疗 AI 研究。  
+  - **PsyCare：** 共同构建多维度精神医学基准；公开数据托管于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**（*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3，2025），支持隐私保护下的医疗 AI 研究。  
   - **隐私与安全：** 多模态重识别中的成员推断；分析并缓解分布式场景下的跨模态泄露。
 
 - **哈尔滨工业大学 智能接口技术中心** — *远程科研实习* · 2025 年 12 月 – 至今 · 远程 · 导师：赵铁军教授  

@@ -28,7 +28,7 @@ Haoyu Li (3rd author), et al.
 </div>
 
 - **PsycheAgents: A Multi-Modal Agentic Framework for Psychiatric Differential Diagnosis** — Haoyu Li (1st author), et al. **npj Digital Medicine** (*under review*).
-- **PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition** — Haoyu Li (2nd author), et al. **npj Digital Medicine** (*under review*).
+- **PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition** — Haoyu Li (2nd author), et al. **npj Digital Medicine** (*under review*). **Dataset:** [Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP), DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP), version V3 (2025).
 - **Rectified Flow for Electronic Health Record Synthesis** — Haoyu Li (1st author), et al. (*manuscript submitted to npj Digital Medicine*).
 - **Membership Inference Attacks in Re-identification** — Haoyu Li (1st author), et al. (*manuscript submitted to IJCV*).
 
@@ -54,7 +54,7 @@ Haoyu Li (3rd author), et al.
 - **MARS Lab, Wuhan University** — *Research Assistant* · Apr. 2025 – Present · Wuhan, China · Advisor: Prof. Mang Ye  
   - **Multi-center federated learning (psychiatry):** Topology-aware federated prototype methods for multi-center diagnosis; unsupervised cluster-based prototypes to mitigate the chimera prototype problem under non-IID settings; strong results on multimodal benchmarks.  
   - **PsycheAgents:** Multi-modal agentic framework for differential diagnosis; hierarchical reasoning inspired by clinical consultation.  
-  - **PsyCare:** Co-developed a multi-dimensional psychiatric benchmark; clinical data shared on **Harvard Dataverse** to support privacy-preserving medical AI research.  
+  - **PsyCare:** Co-developed a multi-dimensional psychiatric benchmark; the public release is on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)** (*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*, DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP), version V3, 2025) to support privacy-preserving medical AI research.  
   - **Privacy & security:** Membership inference in multi-modal re-identification; probing mechanisms to analyze and mitigate cross-modal leakage in distributed settings.
 
 - **Intelligent Interface Center, Harbin Institute of Technology** — *Research Intern* · Dec. 2025 – Present · Remote · Advisor: Prof. Tiejun Zhao  

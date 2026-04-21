@@ -107,3 +107,9 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* 语言切换：与 greedy-nav 链接同风格，避免使用 button 触发展开按钮样式 */
+.greedy-nav a.lang-toggle:focus {
+    outline: 2px solid mix(#fff, $primary-color, 40%);
+    outline-offset: 2px;
+}

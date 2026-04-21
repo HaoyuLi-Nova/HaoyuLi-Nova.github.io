@@ -1,0 +1,99 @@
+<script>
+(function () {
+  var root = document.documentElement;
+  var mount = document.getElementById('i18n-mount');
+  var tplEn = document.getElementById('i18n-tpl-en');
+  var tplZh = document.getElementById('i18n-tpl-zh');
+  if (!root.hasAttribute('data-bilingual') || !mount || !tplEn || !tplZh) return;
+
+  function normBase(val) {
+    if (val === null || val === undefined) return '/';
+    var s = String(val).trim();
+    if (s === '') return '/';
+    if (!s.startsWith('/')) s = '/' + s;
+    if (!s.endsWith('/')) s += '/';
+    return s.replace(/\/+/g, '/');
+  }
+
+  var baseEn = normBase(root.getAttribute('data-i18n-base-en'));
+  var baseZh = normBase(root.getAttribute('data-i18n-base-zh'));
+
+  function pathLang() {
+    var cur = window.location.pathname.replace(/\/?index\.html$/, '');
+    if (!cur || cur === '') cur = '/';
+    if (!cur.endsWith('/')) cur += '/';
+    var zhPath = new URL(baseZh, window.location.href).pathname;
+    if (!zhPath.endsWith('/')) zhPath += '/';
+    if (cur === zhPath) return 'zh';
+    var zhNoSlash = zhPath.replace(/\/$/, '');
+    if (zhNoSlash && (cur === zhNoSlash + '/' || cur.indexOf(zhNoSlash + '/') === 0)) return 'zh';
+    return 'en';
+  }
+
+  function mountLang(lang) {
+    var tpl = lang === 'zh' ? tplZh : tplEn;
+    var clone = tpl.content.cloneNode(true);
+    mount.innerHTML = '';
+    mount.appendChild(clone);
+    root.lang = lang === 'zh' ? 'zh-Hans' : 'en';
+    root.setAttribute('data-i18n-active', lang);
+
+    document.querySelectorAll('.i18n-masthead-label').forEach(function (el) {
+      var t = lang === 'zh' ? el.getAttribute('data-i18n-zh') : el.getAttribute('data-i18n-en');
+      if (t !== null && t !== undefined) el.textContent = t;
+    });
+
+    var toggle = document.querySelector('[data-i18n-toggle]');
+    if (toggle) {
+      toggle.textContent = lang === 'zh' ? 'English' : '中文';
+      toggle.setAttribute('aria-label', lang === 'zh' ? 'Switch to English' : '切换到中文');
+    }
+
+    document.querySelectorAll('.i18n-sidebar-block').forEach(function (block) {
+      var show = block.getAttribute('data-i18n-block');
+      var on = show === lang;
+      if (on) {
+        block.removeAttribute('hidden');
+        block.setAttribute('aria-hidden', 'false');
+      } else {
+        block.setAttribute('hidden', '');
+        block.setAttribute('aria-hidden', 'true');
+      }
+    });
+
+    var titleEn = root.getAttribute('data-i18n-title-en');
+    var titleZh = root.getAttribute('data-i18n-title-zh');
+    if (titleEn && titleZh) document.title = lang === 'zh' ? titleZh : titleEn;
+
+    if (window.MathJax && window.MathJax.Hub) {
+      try { MathJax.Hub.Queue(['Typeset', MathJax.Hub, mount]); } catch (e) {}
+    }
+    window.dispatchEvent(new Event('resize'));
+  }
+
+  function pushLangUrl(lang) {
+    var hash = window.location.hash || '';
+    var path = lang === 'zh' ? baseZh : baseEn;
+    history.pushState({ i18nLang: lang }, '', path + hash);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    root.setAttribute('data-i18n-active', root.getAttribute('data-i18n-default') || 'en');
+
+    var toggle = document.querySelector('[data-i18n-toggle]');
+    if (toggle) {
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        var cur = root.getAttribute('data-i18n-active') || pathLang();
+        var next = cur === 'zh' ? 'en' : 'zh';
+        mountLang(next);
+        pushLangUrl(next);
+      });
+    }
+
+    window.addEventListener('popstate', function () {
+      mountLang(pathLang());
+    });
+  });
+})();
+</script>

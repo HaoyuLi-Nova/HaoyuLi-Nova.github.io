@@ -1,3 +1,33 @@
+{% if page.bilingual %}
+{% assign nav_en = site.data.navigation.main %}
+{% assign nav_zh = site.data.navigation_zh.main %}
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="#about-me"><span class="i18n-masthead-label" data-i18n-en="Homepage" data-i18n-zh="主页">{% if page.lang == 'zh' %}主页{% else %}Homepage{% endif %}</span></a>
+          </li>
+          {% for link_en in nav_en %}
+            {% assign link_zh_pair = nav_zh | slice: forloop.index0, 1 %}
+            {% assign link_zh = link_zh_pair | first %}
+            {% assign frag_hash = link_en.url | split: '#' | last %}
+            <li class="masthead__menu-item">
+              <a href="#{{ frag_hash }}"><span class="i18n-masthead-label" data-i18n-en="{{ link_en.title | xml_escape }}" data-i18n-zh="{{ link_zh.title | xml_escape }}">{% if page.lang == 'zh' %}{{ link_zh.title }}{% else %}{{ link_en.title }}{% endif %}</span></a>
+            </li>
+          {% endfor %}
+          <li class="masthead__menu-item masthead__menu-item--lang">
+            <a href="#" class="lang-toggle" role="button" data-i18n-toggle>{% if page.lang == 'zh' %}English{% else %}中文{% endif %}</a>
+          </li>
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+{% else %}
 {% assign nav_main = site.data.navigation.main %}
 {% capture home_href %}#about-me{% endcapture %}
 {% assign home_label = "Homepage" %}
@@ -27,3 +57,4 @@
     </div>
   </div>
 </div>
+{% endif %}

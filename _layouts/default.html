@@ -3,7 +3,15 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="{% if page.lang == 'zh' %}zh-Hans{% else %}en{% endif %}" class="no-js">
+<html lang="{% if page.lang == 'zh' %}zh-Hans{% else %}en{% endif %}" class="no-js"
+  {% if page.bilingual %}data-bilingual="true"
+    data-i18n-default="{{ page.lang }}"
+    data-i18n-active="{{ page.lang }}"
+    data-i18n-base-en="{{ '/' | relative_url }}"
+    data-i18n-base-zh="{{ '/zh/' | relative_url }}"
+    data-i18n-title-en="{{ site.title | xml_escape }} - Homepage"
+    data-i18n-title-zh="{{ site.title | xml_escape }} - 主页"
+  {% endif %}>
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -21,7 +29,21 @@ layout: compress
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
+            {% if page.bilingual %}
+            <div id="i18n-mount" class="i18n-mount">
+              {% if page.lang == 'zh' %}
+                {% capture _i18n_mount %}{% include i18n/home-zh.md %}{% endcapture %}
+                {{ _i18n_mount | markdownify }}
+              {% else %}
+                {% capture _i18n_mount %}{% include i18n/home-en.md %}{% endcapture %}
+                {{ _i18n_mount | markdownify }}
+              {% endif %}
+            </div>
+            <template id="i18n-tpl-en">{% capture _i18n_en %}{% include i18n/home-en.md %}{% endcapture %}{{ _i18n_en | markdownify }}</template>
+            <template id="i18n-tpl-zh">{% capture _i18n_zh %}{% include i18n/home-zh.md %}{% endcapture %}{{ _i18n_zh | markdownify }}</template>
+            {% else %}
             {{ content }}
+            {% endif %}
           </section>
         </div>
       </article>

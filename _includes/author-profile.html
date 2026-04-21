@@ -3,10 +3,12 @@
 {% endif %}
 {% assign author_bio = author.bio %}
 {% assign sidebar_site_description = site.description %}
+{% unless page.bilingual %}
 {% if page.lang == 'zh' %}
   {% if author.bio_zh %}{% assign author_bio = author.bio_zh %}{% endif %}
   {% if site.description_zh %}{% assign sidebar_site_description = site.description_zh %}{% endif %}
 {% endif %}
+{% endunless %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
@@ -16,13 +18,25 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
+    {% if page.bilingual %}
+      {% if author.bio %}<p class="author__bio i18n-sidebar-block" data-i18n-block="en" {% if page.lang != 'en' %}hidden{% endif %}>{{ author.bio }}</p>{% endif %}
+      {% if author.bio_zh %}<p class="author__bio i18n-sidebar-block" data-i18n-block="zh" {% if page.lang != 'zh' %}hidden{% endif %}>{{ author.bio_zh }}</p>{% endif %}
+    {% elsif author_bio %}
+    <p class="author__bio">{{ author_bio }}</p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if sidebar_site_description %}
+      {% if page.bilingual %}
+        {% if site.description %}
+        <li class="i18n-sidebar-block" data-i18n-block="en" {% if page.lang != 'en' %}hidden{% endif %}><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        {% endif %}
+        {% if site.description_zh %}
+        <li class="i18n-sidebar-block" data-i18n-block="zh" {% if page.lang != 'zh' %}hidden{% endif %}><div style="white-space: normal; margin-bottom: 1em;">{{ site.description_zh }}</div></li>
+        {% endif %}
+      {% elsif sidebar_site_description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ sidebar_site_description }}</div></li>
       {% endif %}
       {% if author.location %}

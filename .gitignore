@@ -1,3 +1,6 @@
 _site/
 push.sh
 .DS_Store
+
+# 个人简历不纳入版本库（避免公开仓库暴露）
+HaoyuLi_CV.pdf

@@ -45,7 +45,7 @@ Haoyu Li (3rd author), et al.
 
 - *Sept. 2023 – June 2027 (expected)*, **Bachelor of Engineering in Computer Science**, [Wuhan University](https://www.whu.edu.cn/), Wuhan, China  
   - **GPA:** 92.08 / 100  
-  - **Selected coursework:** Data Structures (97), Algorithm Design & Analysis (92), Computer Graphics (92), Fundamentals of Software Construction (94), Advanced Mathematics (96), Probability Theory and Statistics (92)
+  - **Core coursework:** Data Structures (97), Algorithm Design & Analysis (92), Computer Graphics (92), Fundamentals of Software Construction (94), Advanced Mathematics (96), Probability Theory and Statistics (92)
 
 <span class='anchor' id='-research-experience'></span>
 
@@ -66,7 +66,7 @@ Haoyu Li (3rd author), et al.
 # 💼 Projects
 
 - **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** — *Dec. 2025 – Present* · Solo developer · .NET 9, WPF, QuestPDF, MVVM  
-  - High-concurrency reporting workflow for clinical use; **O-RADS**-aligned templates; decoupled MVVM modules; one-click report generation with **QuestPDF**.
+  - **In production** at multiple hospitals in **Beijing, China**; high-concurrency reporting workflow for clinical use; **O-RADS**-aligned templates; decoupled MVVM modules; one-click report generation with **QuestPDF**.
 
 - **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *June 2025 – Aug. 2025* · Core developer · Python, ROS, RL, computer vision  
   - Autonomous navigation and obstacle avoidance on Xiaomi CyberDog; **LCMT** communication; visual modules (lane tracking, QR/marker detection); **National Third Prize** in the system capability track.

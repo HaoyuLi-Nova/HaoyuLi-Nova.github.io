@@ -74,7 +74,7 @@
 # 💼 项目
 
 - **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** — *2025 年 12 月 – 至今* · 独立开发 · .NET 9、WPF、QuestPDF、MVVM  
-  - 面向临床的高并发报告工作流；符合 **O-RADS** 的模板；解耦的 MVVM 模块；基于 **QuestPDF** 的一键报告生成。
+  - **已在中国北京多家医院投入临床使用**；面向临床的高并发报告工作流；符合 **O-RADS** 的模板；解耦的 MVVM 模块；基于 **QuestPDF** 的一键报告生成。
 
 - **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *2025 年 6 月 – 8 月* · 核心开发 · Python、ROS、强化学习、计算机视觉  
   - 小米 CyberDog 自主导航与避障；**LCMT** 通信；视觉模块（车道线、二维码/标记检测）；系统能力赛道 **全国三等奖**。

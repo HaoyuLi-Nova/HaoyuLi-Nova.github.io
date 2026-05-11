@@ -17,14 +17,14 @@
 
 # 📝 发表论文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan 框架：FDFM、GSA、DSMM 与 ADR 用于全色锐化" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="通过 DOI 打开 S3Mamba-Pan（IEEE TGRS）"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan 框架：FDFM、GSA、DSMM 与 ADR 用于全色锐化" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-**S3Mamba-Pan: Spectral-Spatial-Scale Mamba for Pansharpening**
+[**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**](https://doi.org/10.1109/TGRS.2026.3686021)
 
-李浩宇（第三作者），等。
+Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang; Dezhen Wang
 
-*IEEE Transactions on Geoscience and Remote Sensing*（**已发表**）。
+*IEEE Transactions on Geoscience and Remote Sensing*（**2026**，期刊论文）。**DOI：** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)（经由 DOI 跳转至 IEEE Xplore）。
 
 - **框架概览：** 低分辨率多光谱（MS）与高分辨率全色（PAN）经 **FDFM**（基于 DWT 的频域分解）、**GSA** 进行全局光谱建模与锚点特征提取，重复堆叠的 **DSMM** 模块（多尺度 Mamba，含空间与状态空间分支），以及 **ADR**（IDWT + 通道融合）预测 **高分辨率 MS（HRMS）**。
 - **效率：** 实验中推理速度约较 Transformer 基线 **2.6×**。
@@ -66,7 +66,7 @@
   - **多模态基准（PsyCare）：** 共同构建多维度精神医学基准；公开数据托管于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**（*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3，2025），支持隐私保护下的医疗 AI 研究。
 
 - **哈尔滨工业大学 智能接口技术中心** — *远程科研实习* · 2025 年 12 月 – 至今 · 远程 · 导师：赵铁军教授  
-  - **S3Mamba-Pan：** 面向全色锐化的频域解耦双路 Mamba；融合 **Haar 小波分解** 与全局光谱锚点，取得较强融合表现且推理快于 Transformer 基线。  
+  - **S3Mamba-Pan**（[IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)，第三作者，合作者含 Zishun Song、Yao Zhang 等）：面向全色锐化的频域解耦双路 Mamba；融合 **Haar 小波分解** 与全局光谱锚点，取得较强融合表现且推理快于 Transformer 基线。  
   - **临床时序生成：** 独立实现基于整流流（rectified flow）的扩散模型，用于高保真临床数据合成。
 
 <span class='anchor' id='-projects'></span>

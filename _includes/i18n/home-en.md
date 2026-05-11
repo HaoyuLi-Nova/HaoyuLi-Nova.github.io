@@ -17,14 +17,14 @@ Contact: **haoyuli404@outlook.com** · **+86-158-2700-2669**
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan framework: FDFM, GSA, DSMM, and ADR for pansharpening" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="Open S3Mamba-Pan (IEEE TGRS) via DOI"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan framework: FDFM, GSA, DSMM, and ADR for pansharpening" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-**S3Mamba-Pan: Spectral-Spatial-Scale Mamba for Pansharpening**
+[**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**](https://doi.org/10.1109/TGRS.2026.3686021)
 
-Haoyu Li (3rd author), et al.
+Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang; Dezhen Wang
 
-*IEEE Transactions on Geoscience and Remote Sensing* (**published**).
+*IEEE Transactions on Geoscience and Remote Sensing*, **2026** (journal article). **DOI:** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021) — opens IEEE Xplore via DOI resolver.
 
 - **Framework (overview):** low-res MS and HR PAN are processed with **FDFM** (DWT-based frequency splits), **GSA** for global spectral modeling and anchor features, repeated **DSMM** blocks (multi-scale Mamba with spatial and state-space branches), and **ADR** (IDWT + channel-wise fusion) to predict **HRMS**.
 - **Efficiency:** about **2.6×** faster inference than Transformer baselines in our experiments.
@@ -66,7 +66,7 @@ Haoyu Li (3rd author), et al.
   - **Multimodal benchmarking (PsyCare):** Co-developed the multi-dimensional psychiatric benchmark; public release on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)** (*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*, DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP), version V3, 2025) to support privacy-preserving medical AI research.
 
 - **Intelligent Interface Center, Harbin Institute of Technology** — *Research Intern* · Dec. 2025 – Present · Remote · Advisor: Prof. Tiejun Zhao  
-  - **S3Mamba-Pan:** Engineered a frequency-decoupled dual-stream Mamba architecture for pansharpening; integrated **Haar-wavelet decomposition** with global spectral anchors for strong fusion performance and faster inference than Transformer baselines.  
+  - **S3Mamba-Pan** ([IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)) — third author alongside Zishun Song, Yao Zhang, et al.: engineered a frequency-decoupled dual-stream Mamba architecture for pansharpening; integrated **Haar-wavelet decomposition** with global spectral anchors for strong fusion performance and faster inference than Transformer baselines.  
   - **Clinical time-series generation:** Independently implemented rectified-flow diffusion models for high-fidelity clinical data synthesis.
 
 <span class='anchor' id='-projects'></span>

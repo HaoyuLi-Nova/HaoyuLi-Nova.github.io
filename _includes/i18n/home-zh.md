@@ -17,17 +17,17 @@
 
 # 📝 发表论文
 
-<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="通过 DOI 打开 S3Mamba-Pan（IEEE TGRS）"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan：GSAM 光谱锚点、Haar 小波 DWT-IDWT、双流 SSS+STS（DualStreamBlock）与 ADR" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="通过 DOI 打开 S3Mamba-Pan（IEEE TGRS）"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan 框架图" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**](https://doi.org/10.1109/TGRS.2026.3686021)
 
 Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang; Dezhen Wang
 
-*IEEE Transactions on Geoscience and Remote Sensing*（**2026**，期刊论文）。**DOI：** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)（经由 DOI 跳转至 IEEE Xplore）。
+*IEEE Transactions on Geoscience and Remote Sensing*，**2026**。**DOI：** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)
 
-- **框架概览：** 可与 DOI [元数据摘要](https://doi.org/10.1109/tgrs.2026.3686021)及官方参考实现 [*S3Mamba*](https://github.com/FreeZS-a/S3Mamba)交叉核对：MS/PAN 特征经 Haar‑wavelet **DWT / IDWT** 完成频域解耦（源码注释将该环节记为环绕 DWT–IDWT 的 **FDFM** / *Frequency‑Decoupled Fusion Module*）；**GSAM**（*Global Spectral Anchoring Module*）从 LRMS **提取全局光谱锚点**以约束光谱‑结构分支；多块 **双流建模**（代码 `DualStreamBlock`：**SSS** 光谱‑结构建模 + **STS** PAN 引导的空间‑纹理建模）在低/高频通路交替更新后，经由 **逆向小波** 汇合，再通过 **ADR**（*Adaptive Distribution Recalibration*，通道分布再校准），最后卷积头输出 **HRMS 残差**（含 MS 直连残差）。
-- **效率：** 论文实验配置下推理约较 Transformer 基线 **2.6×**（建议在终稿中对齐对应表格/GPU 说明）。
+- 提出面向全色锐化的频率感知状态空间框架，通过 LRMS 全局光谱锚点、小波频域解耦和双流 Mamba 结构，分别建模光谱相关性与 PAN 引导的纹理细节。
+- 在 WV3、QuickBird 和 GF2 上与代表性 CNN、Transformer、SSM 基线比较；WV3 全分辨率无参考评估报告 **Dλ 0.0144**、**Ds 0.0303**、**HQNR 0.960**。
 
 </div>
 </div>
@@ -66,7 +66,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - **多模态基准（PsyCare）：** 共同构建多维度精神医学基准；公开数据托管于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**（*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3，2025），支持隐私保护下的医疗 AI 研究。
 
 - **哈尔滨工业大学 智能接口技术中心** — *远程科研实习* · 2025 年 12 月 – 至今 · 远程 · 导师：赵铁军教授  
-  - **S3Mamba-Pan**（[IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)，第三作者，合作者含 Zishun Song、Yao Zhang 等）：面向全色锐化的频域解耦双路 Mamba；融合 **Haar 小波分解** 与全局光谱锚点，取得较强融合表现且推理快于 Transformer 基线。  
+  - **S3Mamba-Pan**（[IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)，第三作者）：参与面向全色锐化的频域解耦双流 Mamba 框架，结合 LRMS 光谱锚点、小波分解和 PAN 引导的纹理建模。  
   - **临床时序生成：** 独立实现基于整流流（rectified flow）的扩散模型，用于高保真临床数据合成。
 
 <span class='anchor' id='-projects'></span>

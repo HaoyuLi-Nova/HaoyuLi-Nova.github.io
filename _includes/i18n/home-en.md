@@ -17,18 +17,17 @@ Contact: **haoyuli404@outlook.com** · **+86-158-2700-2669**
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="Open S3Mamba-Pan (IEEE TGRS) via DOI"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan: GSAM spectral anchors; Haar DWT-IDWT splits; stacked dual-stream SSS and STS Mamba paths; tail after ADR" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="Open S3Mamba-Pan (IEEE TGRS) via DOI"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan framework diagram" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**](https://doi.org/10.1109/TGRS.2026.3686021)
 
 Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang; Dezhen Wang
 
-*IEEE Transactions on Geoscience and Remote Sensing*, **2026** (journal article). **DOI:** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021) — opens IEEE Xplore via DOI resolver.
+*IEEE Transactions on Geoscience and Remote Sensing*, **2026**. **DOI:** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)
 
-- **Framework (overview):** Aligned with the indexed abstract ([DOI resolver](https://doi.org/10.1109/tgrs.2026.3686021)) and the reference implementation [*S3Mamba*](https://github.com/FreeZS-a/S3Mamba): MS/PAN features use Haar-wavelet **DWT/IDWT** for frequency-aware decoupling (**FDFM** in code annotates this *Frequency-Decoupled Fusion Module* bridging DWT and IDWT). **GSAM** (*Global Spectral Anchoring Module*) extracts a global spectral anchor from LRMS that conditions the spectral-structure stream. Repeated **dual-stream blocks** (**SSS** plus **STS** in code—spectral-structure modelling vs PAN-guided spatial-texture modelling) refine low/high bands, **inverse wavelet fusion** merges them, **ADR** (*Adaptive Distribution Recalibration*) recalibrates channel statistics, then a convolutional head predicts HRMS residuals with an LRMS skip.
-
-- **Efficiency:** about **2.6×** faster inference than Transformer baselines in **authors’ experiments** *(align wording with your camera‑ready timing table when you revise the homepage).*
+- Proposes a frequency-aware state-space framework for pansharpening, using LRMS global spectral anchors, wavelet-based frequency decoupling, and a dual-stream Mamba design for spectral correlation learning and PAN-guided texture enhancement.
+- Evaluated on WV3, QuickBird, and GF2 against representative CNN, Transformer, and SSM baselines; full-resolution WV3 no-reference assessment reports **Dλ 0.0144**, **Ds 0.0303**, and **HQNR 0.960**.
 </div>
 </div>
 
@@ -66,7 +65,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - **Multimodal benchmarking (PsyCare):** Co-developed the multi-dimensional psychiatric benchmark; public release on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)** (*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*, DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP), version V3, 2025) to support privacy-preserving medical AI research.
 
 - **Intelligent Interface Center, Harbin Institute of Technology** — *Research Intern* · Dec. 2025 – Present · Remote · Advisor: Prof. Tiejun Zhao  
-  - **S3Mamba-Pan** ([IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)) — third author alongside Zishun Song, Yao Zhang, et al.: engineered a frequency-decoupled dual-stream Mamba architecture for pansharpening; integrated **Haar-wavelet decomposition** with global spectral anchors for strong fusion performance and faster inference than Transformer baselines.  
+  - **S3Mamba-Pan** ([IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)) — third author: contributed to a frequency-decoupled dual-stream Mamba framework for pansharpening, combining LRMS spectral anchoring, wavelet decomposition, and PAN-guided texture modeling.  
   - **Clinical time-series generation:** Independently implemented rectified-flow diffusion models for high-fidelity clinical data synthesis.
 
 <span class='anchor' id='-projects'></span>

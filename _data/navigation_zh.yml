@@ -1,0 +1,28 @@
+# 中文导航（与英文版锚点 id 一致，便于双语对照）
+main:
+  - title: "关于我"
+    url: "/zh/#about-me"
+
+  - title: "动态"
+    url: "/zh/#-news"
+
+  - title: "发表论文"
+    url: "/zh/#-publications"
+
+  - title: "荣誉与奖项"
+    url: "/zh/#-honors-and-awards"
+
+  - title: "教育背景"
+    url: "/zh/#-educations"
+
+  - title: "科研经历"
+    url: "/zh/#-research-experience"
+
+  - title: "项目"
+    url: "/zh/#-projects"
+
+  - title: "学生工作与志愿服务"
+    url: "/zh/#-leadership-service"
+
+  - title: "技能"
+    url: "/zh/#-skills"

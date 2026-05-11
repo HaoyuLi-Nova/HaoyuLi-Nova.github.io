@@ -17,7 +17,7 @@
 
 # 📝 发表论文
 
-<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="通过 DOI 打开 S3Mamba-Pan（IEEE TGRS）"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan 框架：FDFM、GSA、DSMM 与 ADR 用于全色锐化" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="通过 DOI 打开 S3Mamba-Pan（IEEE TGRS）"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan：GSAM 光谱锚点、Haar 小波 DWT-IDWT、双流 SSS+STS（DualStreamBlock）与 ADR" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**](https://doi.org/10.1109/TGRS.2026.3686021)
@@ -26,8 +26,8 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 *IEEE Transactions on Geoscience and Remote Sensing*（**2026**，期刊论文）。**DOI：** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)（经由 DOI 跳转至 IEEE Xplore）。
 
-- **框架概览：** 低分辨率多光谱（MS）与高分辨率全色（PAN）经 **FDFM**（基于 DWT 的频域分解）、**GSA** 进行全局光谱建模与锚点特征提取，重复堆叠的 **DSMM** 模块（多尺度 Mamba，含空间与状态空间分支），以及 **ADR**（IDWT + 通道融合）预测 **高分辨率 MS（HRMS）**。
-- **效率：** 实验中推理速度约较 Transformer 基线 **2.6×**。
+- **框架概览：** 可与 DOI [元数据摘要](https://doi.org/10.1109/tgrs.2026.3686021)及官方参考实现 [*S3Mamba*](https://github.com/FreeZS-a/S3Mamba)交叉核对：MS/PAN 特征经 Haar‑wavelet **DWT / IDWT** 完成频域解耦（源码注释将该环节记为环绕 DWT–IDWT 的 **FDFM** / *Frequency‑Decoupled Fusion Module*）；**GSAM**（*Global Spectral Anchoring Module*）从 LRMS **提取全局光谱锚点**以约束光谱‑结构分支；多块 **双流建模**（代码 `DualStreamBlock`：**SSS** 光谱‑结构建模 + **STS** PAN 引导的空间‑纹理建模）在低/高频通路交替更新后，经由 **逆向小波** 汇合，再通过 **ADR**（*Adaptive Distribution Recalibration*，通道分布再校准），最后卷积头输出 **HRMS 残差**（含 MS 直连残差）。
+- **效率：** 论文实验配置下推理约较 Transformer 基线 **2.6×**（建议在终稿中对齐对应表格/GPU 说明）。
 
 </div>
 </div>

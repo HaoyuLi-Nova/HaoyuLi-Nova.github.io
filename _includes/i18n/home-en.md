@@ -17,7 +17,7 @@ Contact: **haoyuli404@outlook.com** · **+86-158-2700-2669**
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="Open S3Mamba-Pan (IEEE TGRS) via DOI"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan framework: FDFM, GSA, DSMM, and ADR for pansharpening" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a href="https://doi.org/10.1109/TGRS.2026.3686021" target="_blank" rel="noopener noreferrer" title="Open S3Mamba-Pan (IEEE TGRS) via DOI"><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan: GSAM spectral anchors; Haar DWT-IDWT splits; stacked dual-stream SSS and STS Mamba paths; tail after ADR" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**](https://doi.org/10.1109/TGRS.2026.3686021)
@@ -26,9 +26,9 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 *IEEE Transactions on Geoscience and Remote Sensing*, **2026** (journal article). **DOI:** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021) — opens IEEE Xplore via DOI resolver.
 
-- **Framework (overview):** low-res MS and HR PAN are processed with **FDFM** (DWT-based frequency splits), **GSA** for global spectral modeling and anchor features, repeated **DSMM** blocks (multi-scale Mamba with spatial and state-space branches), and **ADR** (IDWT + channel-wise fusion) to predict **HRMS**.
-- **Efficiency:** about **2.6×** faster inference than Transformer baselines in our experiments.
+- **Framework (overview):** Aligned with the indexed abstract ([DOI resolver](https://doi.org/10.1109/tgrs.2026.3686021)) and the reference implementation [*S3Mamba*](https://github.com/FreeZS-a/S3Mamba): MS/PAN features use Haar-wavelet **DWT/IDWT** for frequency-aware decoupling (**FDFM** in code annotates this *Frequency-Decoupled Fusion Module* bridging DWT and IDWT). **GSAM** (*Global Spectral Anchoring Module*) extracts a global spectral anchor from LRMS that conditions the spectral-structure stream. Repeated **dual-stream blocks** (**SSS** plus **STS** in code—spectral-structure modelling vs PAN-guided spatial-texture modelling) refine low/high bands, **inverse wavelet fusion** merges them, **ADR** (*Adaptive Distribution Recalibration*) recalibrates channel statistics, then a convolutional head predicts HRMS residuals with an LRMS skip.
 
+- **Efficiency:** about **2.6×** faster inference than Transformer baselines in **authors’ experiments** *(align wording with your camera‑ready timing table when you revise the homepage).*
 </div>
 </div>
 

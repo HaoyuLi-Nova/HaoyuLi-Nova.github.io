@@ -14,6 +14,12 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-15
 
 # 📝 Publications
 
+<div class='paper-box'>
+<div class='paper-box-image'>
+<img src='images/Mamba_Framework.png' alt='S3Mamba-Pan framework'>
+</div>
+<div class='paper-box-text' markdown='1'>
+
 [IEEE TGRS](https://doi.org/10.1109/TGRS.2026.3686021)
 
 **[S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening](https://doi.org/10.1109/TGRS.2026.3686021)**
@@ -21,6 +27,9 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-15
 Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang; Dezhen Wang
 
 *IEEE Transactions on Geoscience and Remote Sensing*, **2026**. **DOI:** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 

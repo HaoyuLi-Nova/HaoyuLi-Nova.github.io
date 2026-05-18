@@ -26,8 +26,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 *IEEE Transactions on Geoscience and Remote Sensing*, **2026**. **DOI:** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)
 
-- Proposes a frequency-aware state-space framework for pansharpening, using LRMS global spectral anchors, wavelet-based frequency decoupling, and a dual-stream Mamba design for spectral correlation learning and PAN-guided texture enhancement.
-- Evaluated on WV3, QuickBird, and GF2 against representative CNN, Transformer, and SSM baselines; full-resolution WV3 no-reference assessment reports **Dλ 0.0144**, **Ds 0.0303**, and **HQNR 0.960**.
 </div>
 </div>
 

@@ -26,9 +26,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 *IEEE Transactions on Geoscience and Remote Sensing*，**2026**。**DOI：** [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)
 
-- 提出面向全色锐化的频率感知状态空间框架，通过 LRMS 全局光谱锚点、小波频域解耦和双流 Mamba 结构，分别建模光谱相关性与 PAN 引导的纹理细节。
-- 在 WV3、QuickBird 和 GF2 上与代表性 CNN、Transformer、SSM 基线比较；WV3 全分辨率无参考评估报告 **Dλ 0.0144**、**Ds 0.0303**、**HQNR 0.960**。
-
 </div>
 </div>
 

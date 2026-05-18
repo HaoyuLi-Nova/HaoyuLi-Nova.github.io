@@ -8,7 +8,7 @@
 
 # 🔥 动态
 
-- *2026.04*：&nbsp;📝 *PsycheAgents* 与 *PsyCare* 投稿 **Nature Mental Health** 审稿中；*Rectified Flow for Electronic Health Record Synthesis* 已投稿，详见下方发表论文。
+- *2026.04*：&nbsp;📝 *FedMental* **ECCV 2026** 复审（rebuttal）；*PsycheAgents*、**ChronoRect** 投递 **npj Digital Medicine**；*PsyCare* **Nature Mental Health** 审稿中；*S³Mamba-Pan* 已收录 **IEEE TGRS**（DOI [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021)）——见下方发表论文。
 - *2025.10*：&nbsp;🏆 获评武汉大学 **优秀学生干部**、**优秀学生**（Merit Student）。
 - *2025*：&nbsp;🥇 **全国大学生计算机系统能力大赛** 全国三等奖；**中国大学生计算机设计大赛** 中南赛区一等奖；**全国大学生数学竞赛** 湖北赛区二等奖；**美国大学生数学建模竞赛（MCM/ICM）** Honorable Mention。
 - *2026*：&nbsp;📋 **国家级大学生创新创业训练计划** 项目立项。
@@ -32,9 +32,10 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-- **PsycheAgents: A Multi-Modal Agentic Framework for Psychiatric Differential Diagnosis** — 李浩宇（第一作者），等。**Nature Mental Health**（*审稿中*）。
+- **FedMental: Topology-Aware Federated Prototypes for Multi-Center Multimodal Psychiatry** — 李浩宇（第一作者），等。**ECCV 2026**（*复审 / rebuttal*）。
+- **PsycheAgents: A Multi-Modal Agentic Framework for Psychiatric Differential Diagnosis** — 李浩宇（第一作者），等（*投稿 **npj Digital Medicine***）。
 - **PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition** — 李浩宇（第二作者），等。**Nature Mental Health**（*审稿中*）。**数据集：** [Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3（2025）。
-- **Rectified Flow for Electronic Health Record Synthesis** — 李浩宇（第一作者），等（*投稿 **npj Digital Medicine***）。
+- **ChronoRect: Dual-Time Rectified Flow for Clinically Useful Medical Time-Series Generation** — 李浩宇（第一作者），等（**npj Digital Medicine**，*审稿中*）。
 
 <span class='anchor' id='-honors-and-awards'></span>
 
@@ -61,13 +62,13 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 # 🔬 科研经历
 
 - **武汉大学 MARS 实验室** — *科研助理* · 2025 年 4 月 – 至今 · 武汉 · 导师：叶茫教授  
-  - **匿名审稿中的论文：** 有稿件正处在匿名审稿阶段；按会议要求，本站暂不列出其题名或投稿会议信息。
-  - **PsycheAgents：** 构建面向鉴别诊断的多模态智能体框架；设计层次化推理管线以贴近临床会诊逻辑，提升可解释性与推理深度。  
-  - **多模态基准（PsyCare）：** 共同构建多维度精神医学基准；公开数据托管于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**（*PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition*，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3，2025），支持隐私保护下的医疗 AI 研究。
+  - **FedMental：** **主导（一作）** 拓扑感知联邦原型框架面向多中心精神医学诊断；提出 **无监督聚类原型** 缓解非独立同分布下的「奇美拉原型」问题，项目实验中在多模态基准上取得 **SOTA 级表现**。**ECCV 2026**，*复审（rebuttal）*。
+  - **PsycheAgents：** 搭建多模态智能体鉴别诊断框架；设计贴近临床会诊逻辑的层次推理管线，强化可解释性与推理深度（*手稿目标期刊 **npj Digital Medicine***）。
+  - **多模态基准（PsyCare）：** 共同构建多维度精神医学基准；数据开源于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**（*PsyCare*，DOI [10.7910/DVN/QW23QP](https://doi.org/10.7910/DVN/QW23QP)，版本 V3，2025），投稿 **Nature Mental Health**（*审稿中*）。
 
 - **哈尔滨工业大学 智能接口技术中心** — *远程科研实习* · 2025 年 12 月 – 至今 · 远程 · 导师：赵铁军教授  
-  - **S3Mamba-Pan**（[IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)，第三作者）：参与面向全色锐化的频域解耦双流 Mamba 框架，结合 LRMS 光谱锚点、小波分解和 PAN 引导的纹理建模。  
-  - **临床时序生成：** 独立实现基于整流流（rectified flow）的扩散模型，用于高保真临床数据合成。
+  - **S³Mamba-Pan**（[IEEE TGRS 2026](https://doi.org/10.1109/TGRS.2026.3686021)，第三作者）：参与基于小波的双流 Mamba 全色锐化框架，结合光谱锚点与自适应分布再校准，实现高质量、高效的 HRMS 重建。  
+  - **临床时序生成：** 开发 **ChronoRect**，双时刻整流流框架配套 **EHR-TriDiT**，提升合成数据保真度、下游可用性与实证隐私安全性（**npj Digital Medicine**，*审稿中*）。
 
 <span class='anchor' id='-projects'></span>
 

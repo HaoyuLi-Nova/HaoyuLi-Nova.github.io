@@ -1,23 +1,24 @@
 Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan University](https://www.whu.edu.cn/). His research interests include **world models**, **diffusion models**, **multimodal learning**, **efficient inference**, and **embodied AI**. He has been a research assistant at the MARS Lab, Wuhan University, and a remote research intern at the Intelligent Interface Center, Harbin Institute of Technology.
 
-Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
+Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158-2700-2669**
 
-# 🔥 News
+# News
 
-- *2026.05*:  📋 **Project approved**, National College Students' Innovation and Entrepreneurship Training Program.
-- *2026.04*:  📝 *S³Mamba-Pan* was accepted by **IEEE TGRS** with DOI [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021).
-- *2025.10*:  🏆 Received **Meritorious Student Leader**, **Wuhan University Merit Student**, and related honors.
-- *2025.08*:  🥇 **National Third Prize**, National Computer System Capability Competition.
-- *2025.05*:  🥇 **Central-South Regional First Prize**, National Undergraduate Computer Design Competition.
-- *2025.05*:  🥇 **Honorable Mention**, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM).
+- *2026.05*: Released **Diffusion Models from Zero to Hero** as an open-source course; contributions are welcome.
+- *2026.04*: **Project approved**, National College Students' Innovation and Entrepreneurship Training Program.
+- *2026.04*: *S3Mamba-Pan* was accepted by **IEEE TGRS** with DOI [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021).
+- *2025.10*: Received **Meritorious Student Leader**, **Wuhan University Merit Student**, and related honors.
+- *2025.08*: **National Third Prize**, National Computer System Capability Competition.
+- *2025.05*: **Central-South Regional First Prize**, National Undergraduate Computer Design Competition.
+- *2025.05*: **Honorable Mention**, Mathematical Contest in Modeling.
 - *2024.11*: **Hubei Province Second Prize**, National College Student Mathematics Competition.
 
-# 📝 Publications
+# Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
+**S3Mamba-Pan: Spectral-Spatial-Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
 
 Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang; Dezhen Wang
 
@@ -26,52 +27,57 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# Honors and Awards
 
-- *2025*  **Meritorious Student Leader**, Wuhan University  
-- *2025*  **Wuhan University Merit Student**  
-- *2025*  **National Third Prize**, National Computer System Capability Competition  
-- *2025*  **Central-South Regional First Prize**, National Undergraduate Computer Design Competition  
-- *2025*  **Hubei Province Second Prize**, National College Student Mathematics Competition  
-- *2025*  **Honorable Mention**, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling  
-- *2026*  **Project Approved**, National College Students' Innovation and Entrepreneurship Training Program
+- *2025* **Meritorious Student Leader**, Wuhan University
+- *2025* **Wuhan University Merit Student**
+- *2025* **National Third Prize**, National Computer System Capability Competition
+- *2025* **Central-South Regional First Prize**, National Undergraduate Computer Design Competition
+- *2025* **Hubei Province Second Prize**, National College Student Mathematics Competition
+- *2025* **Honorable Mention**, Mathematical Contest in Modeling
+- *2026* **Project Approved**, National College Students' Innovation and Entrepreneurship Training Program
 
-# 📖 Education
+# Education
 
-- *Sept. 2023 – June 2027 (expected)*, **Bachelor of Engineering in Computer Science**, [Wuhan University](https://www.whu.edu.cn/), Wuhan, China  
-  - **GPA:** 3.67 / 4.0  
+- *Sept. 2023 - June 2027 (expected)*, **Bachelor of Engineering in Computer Science**, [Wuhan University](https://www.whu.edu.cn/), Wuhan, China
+  - **GPA:** 3.67 / 4.0
   - **Selected coursework:** Data Structures (97), Algorithm Design and Analysis (92), Computer Graphics (92), Fundamentals of Software Construction (94), Advanced Mathematics (96), Probability Theory and Mathematical Statistics (92)
 
-# 🔬 Research Experience
+# Research Experience
 
-- **MARS Lab, Wuhan University** — *Research Assistant* · Apr. 2025 – Present · Wuhan, China · Advisor: Prof. Mang Ye  
-  - Studied **federated prototype learning** for multi-center, multimodal psychiatric diagnosis, focusing on non-IID data, privacy constraints, and cross-domain generalization; designed topology-aware prototype modeling to reduce prototype shift and semantic mixing across heterogeneous clinical centers.  
-  - Designed a multimodal agentic diagnosis framework that organizes clinical text, structured scales, and multimodal evidence into a hierarchical reasoning chain.  
+- **MARS Lab, Wuhan University** - *Research Assistant* | Apr. 2025 - Present | Wuhan, China | Advisor: Prof. Mang Ye
+  - Studied **federated prototype learning** for multi-center, multimodal psychiatric diagnosis, focusing on non-IID data, privacy constraints, and cross-domain generalization; designed topology-aware prototype modeling to reduce prototype shift and semantic mixing across heterogeneous clinical centers.
+  - Designed a multimodal agentic diagnosis framework that organizes clinical text, structured scales, and multimodal evidence into a hierarchical reasoning chain.
   - Co-developed a multidimensional psychiatric benchmark, focusing on interpretability, robustness, and failure-mode diagnosis in complex settings; the dataset is released on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**.
-- **Intelligent Interface Center, Harbin Institute of Technology** — *Remote Research Intern* · Dec. 2025 – Present · Remote · Advisor: Prof. Tiejun Zhao  
-  - Contributed to **S³Mamba-Pan**, an efficient visual modeling project, studying the trade-offs among spatial detail, spectral consistency, and inference efficiency through frequency-decoupled dual-stream Mamba, Haar-wavelet decomposition, spectral anchors, and adaptive distribution recalibration.  
-  - **Time-series generation:** Developed **ChronoRect**, using rectified flow to model continuous distribution transport in clinical time-series data, and proposed **EHR-TriDiT** to improve synthetic fidelity, downstream utility, and empirical privacy safety, gaining hands-on understanding of flow matching, generative sampling, and conditional modeling.  
+- **Intelligent Interface Center, Harbin Institute of Technology** - *Remote Research Intern* | Dec. 2025 - Present | Remote | Advisor: Prof. Tiejun Zhao
+  - Contributed to **S3Mamba-Pan**, an efficient visual modeling project, studying the trade-offs among spatial detail, spectral consistency, and inference efficiency through frequency-decoupled dual-stream Mamba, Haar-wavelet decomposition, spectral anchors, and adaptive distribution recalibration.
+  - **Time-series generation:** Developed **ChronoRect**, using rectified flow to model continuous distribution transport in clinical time-series data, and proposed **EHR-TriDiT** to improve synthetic fidelity, downstream utility, and empirical privacy safety, gaining hands-on understanding of flow matching, generative sampling, and conditional modeling.
   - **Controllable video generation:** Studied region and trajectory conditioning in **object-centric text-to-video diffusion**, aiming to improve object motion control, identity preservation, attribute binding, and temporal consistency in generated videos.
 
-# 💼 Projects
+# Projects
 
-- **[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** — *Aug. 2025 – Present* · Datawhale · **Decoder-only** · **Pretraining → SFT**  
-  - Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, tokenization, RoPE, and KV Cache**.  
+- **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* | PyTorch, Diffusers, Jupyter Notebook
+  - Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
+
+- **[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* | Datawhale | **Decoder-only** | **Pretraining -> SFT**
+  - Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, tokenization, RoPE, and KV Cache**.
   - Connected **pretraining, instruction tuning, PEFT, and inference optimization** into an end-to-end engineering workflow, emphasizing data construction, training objectives, optimization strategies, memory management, stability practices, and extensions to **evaluation, RAG, and agents**.
-- **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** — *Dec. 2025 – Apr. 2026* · WPF, MVVM, QuestPDF  
-  - Designed a structured desktop reporting system for real **gynecological ultrasound** workflows, decomposing clinical forms into composable state units and using lesion-option dependencies with **O-RADS** grading assistance to reduce repetitive input and rule omissions.  
-  - Organized business logic, UI state, and PDF generation with **MVVM** and an **App / Core / Infrastructure** layered architecture; integrated **QuestPDF** for real-time preview and A4 medical-report export, serving **10,000+** patients and clinicians.
-- **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *Apr. 2025 – Aug. 2025* · ROS, reinforcement learning  
-  - Built an embodied control system for Xiaomi CyberDog, using **ROS** to coordinate task scheduling, real-time visual perception, lane following, QR / marker recognition, and obstacle-aware navigation, and converting fused sensor observations into executable motion decisions.  
+
+- **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* | ROS, reinforcement learning
+  - Built an embodied control system for Xiaomi CyberDog, using **ROS** to coordinate task scheduling, real-time visual perception, lane following, QR / marker recognition, and obstacle-aware navigation, and converting fused sensor observations into executable motion decisions.
   - Mapped visual recognition outputs into task states and action constraints, designed low-level motion interfaces and an **LCMT** trajectory-tracking pipeline, and combined reinforcement-learning-guided policy tuning with real-time feedback correction to improve closed-loop stability under sensor noise, action delay, and scene disturbance.
 
-# 🌟 Leadership & Service
+- **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** - *Dec. 2025 - Apr. 2026* | WPF, MVVM, QuestPDF
+  - Designed a structured desktop reporting system for real **gynecological ultrasound** workflows, decomposing clinical forms into composable state units and using lesion-option dependencies with **O-RADS** grading assistance to reduce repetitive input and rule omissions.
+  - Organized business logic, UI state, and PDF generation with **MVVM** and an **App / Core / Infrastructure** layered architecture; integrated **QuestPDF** for real-time preview and A4 medical-report export, serving **10,000+** patients and clinicians.
 
-- **Class monitor**, Wuhan University · Sept. 2023 – Present — responsible for a class of **31** students; coordinated academic, administrative, and collective affairs; organized **16** themed activities across class, college, and inter-college settings.  
-- **Committee member, External Liaison Department** · Sept. 2023 – Present — facilitated **2** campus-enterprise collaborations; planned events reaching **5,000+** participants cumulatively.
+# Leadership & Service
 
-# 🛠 Skills
+- **Class monitor**, Wuhan University | Sept. 2023 - Present - responsible for a class of **31** students; coordinated academic, administrative, and collective affairs; organized **16** themed activities across class, college, and inter-college settings.
+- **Committee member, External Liaison Department** | Sept. 2023 - Present - facilitated **2** campus-enterprise collaborations; planned events reaching **5,000+** participants cumulatively.
 
-- **Languages:** Mandarin (native), English (fluent)  
-- **Programming:** Python, Java, C#, C++, SQL, Go  
+# Skills
+
+- **Languages:** Mandarin (native), English (fluent)
+- **Programming:** Python, Java, C#, C++, SQL, Go
 - **Tools & frameworks:** PyTorch, Linux, Git, ROS, Docker

@@ -2,7 +2,7 @@
 
 李浩宇是 [武汉大学](https://www.whu.edu.cn/) **计算机科学与技术**专业本科生。研究兴趣包括 **世界模型**、**扩散模型**、**多模态学习**、**高效推理** 与 **具身智能**。曾在武汉大学 MARS 实验室担任科研助理，并在哈尔滨工业大学智能接口技术中心远程实习。
 
-联系方式：**[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158-2700-2669**
+联系方式：**[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
 
 # 动态 {#news}
 
@@ -17,7 +17,7 @@
 
 # 发表论文 {#publications}
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/paper/S3Mamba-Pan.png" | relative_url }}' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/images/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral-Spatial-Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
@@ -59,7 +59,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # 项目 {#projects}
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · Diffusers, Motion control
@@ -69,7 +69,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/happyllm.png' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Happy-LLM](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* · **Pretraining -> SFT**
@@ -79,7 +79,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><video src='{{ "/images/project/CyberMars.mp4" | relative_url }}' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/CyberMars.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *2025 年 4 月 – 8 月* · ROS、强化学习

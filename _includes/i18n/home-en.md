@@ -2,7 +2,7 @@
 
 Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan University](https://www.whu.edu.cn/). His research interests include **world models**, **diffusion models**, **multimodal learning**, **efficient inference**, and **embodied AI**. He has been a research assistant at the MARS Lab, Wuhan University, and a remote research intern at the Intelligent Interface Center, Harbin Institute of Technology.
 
-Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158-2700-2669**
+Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
 
 # News {#news}
 
@@ -17,7 +17,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158
 
 # Publications {#publications}
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/paper/S3Mamba-Pan.png" | relative_url }}' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/images/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral-Spatial-Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
@@ -47,19 +47,19 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # Research Experience {#research-experience}
 
-- **MARS Lab, Wuhan University** - *Research Assistant* | Apr. 2025 - Present | Wuhan, China | Advisor: Prof. Mang Ye
+- **MARS Lab, Wuhan University** - *Research Assistant* · Apr. 2025 - Present · Wuhan, China · Advisor: Prof. Mang Ye
   - Studied **federated prototype learning** for multi-center, multimodal psychiatric diagnosis, focusing on non-IID data, privacy constraints, and cross-domain generalization; designed topology-aware prototype modeling to reduce prototype shift and semantic mixing across heterogeneous clinical centers.
   - Designed a multimodal agentic diagnosis framework that organizes clinical text, structured scales, and multimodal evidence into a hierarchical reasoning chain.
   - Co-developed a multidimensional psychiatric benchmark, focusing on interpretability, robustness, and failure-mode diagnosis in complex settings; the dataset is released on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**.
 
-- **Intelligent Interface Center, Harbin Institute of Technology** - *Remote Research Intern* | Dec. 2025 - Present | Remote | Advisor: Prof. Tiejun Zhao
+- **Intelligent Interface Center, Harbin Institute of Technology** - *Remote Research Intern* · Dec. 2025 - Present · Remote · Advisor: Prof. Tiejun Zhao
   - Contributed to **S3Mamba-Pan**, an efficient visual modeling project, studying the trade-offs among spatial detail, spectral consistency, and inference efficiency through frequency-decoupled dual-stream Mamba, Haar-wavelet decomposition, spectral anchors, and adaptive distribution recalibration.
   - **Time-series generation:** Developed **ChronoRect**, using rectified flow to model continuous distribution transport in clinical time-series data, and proposed **EHR-TriDiT** to improve synthetic fidelity, downstream utility, and empirical privacy safety, gaining hands-on understanding of flow matching, generative sampling, and conditional modeling.
   - **Controllable video generation:** Studied region and trajectory conditioning in **object-centric text-to-video diffusion**, aiming to improve object motion control, identity preservation, attribute binding, and temporal consistency in generated videos.
 
 # Projects {#projects}
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* · Diffusers, Motion control
@@ -69,7 +69,7 @@ Systematically organized and maintained a hands-on diffusion-model course coveri
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/happyllm.png' alt="Happy-LLM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* · Pretraining -> SFT
@@ -80,7 +80,7 @@ Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and pr
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><video src='{{ "/images/project/CyberMars.mp4" | relative_url }}' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/CyberMars.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* · ROS reinforcement learning
@@ -97,8 +97,8 @@ Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and pr
 
 # Leadership & Service {#leadership-service}
 
-- **Class monitor**, Wuhan University | Sept. 2023 - Present - responsible for a class of **31** students; coordinated academic, administrative, and collective affairs; organized **16** themed activities across class, college, and inter-college settings.
-- **Committee member, External Liaison Department** | Sept. 2023 - Present - facilitated **2** campus-enterprise collaborations; planned events reaching **5,000+** participants cumulatively.
+- **Class monitor**, Wuhan University · Sept. 2023 - Present - responsible for a class of **31** students; coordinated academic, administrative, and collective affairs; organized **16** themed activities across class, college, and inter-college settings.
+- **Committee member, External Liaison Department** · Sept. 2023 - Present - facilitated **2** campus-enterprise collaborations; planned events reaching **5,000+** participants cumulatively.
 
 # Skills {#skills}
 

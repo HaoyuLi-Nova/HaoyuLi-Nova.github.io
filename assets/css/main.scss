@@ -84,6 +84,38 @@
 
     }
 
+    /* 图在上、文在下（用于 Projects 等纵向卡片） */
+    &--stack {
+        flex-direction: column;
+        align-items: stretch;
+
+        .paper-box-image {
+            order: 1;
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+            margin-bottom: 1em;
+
+            img {
+                max-width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .paper-box-text {
+            order: 2;
+            max-width: 100%;
+            padding-left: 0;
+        }
+
+        @include breakpoint($medium) {
+            .paper-box-image,
+            .paper-box-text {
+                max-width: 100%;
+                padding-left: 0;
+            }
+        }
+    }
 
 }
 

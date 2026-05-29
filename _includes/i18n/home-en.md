@@ -15,7 +15,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158
 
 # Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/Mamba_Framework.png" | relative_url }}' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/S3Mamba-Pan.png" | relative_url }}' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral-Spatial-Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
@@ -56,8 +56,15 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # Projects
 
-- **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* | PyTorch, Diffusers, Jupyter Notebook
-  - Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* | PyTorch, Diffusers, Jupyter Notebook
+
+- Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
+
+</div>
+</div>
 
 - **[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* | Datawhale | **Decoder-only** | **Pretraining -> SFT**
   - Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, tokenization, RoPE, and KV Cache**.

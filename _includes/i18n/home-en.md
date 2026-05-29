@@ -62,18 +62,18 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* | Diffusers, Motion control
 
-- Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
+Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM: building large language models from scratch" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* |  **Decoder-only** **Pretraining -> SFT**
+**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* |  **Decoder-only** **Pretraining -> SFT**
 
-- Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, tokenization, RoPE, and KV Cache**.
-- Connected **pretraining, instruction tuning, PEFT, and inference optimization** into an end-to-end engineering workflow, emphasizing data construction, training objectives, optimization strategies, memory management, stability practices, and extensions to **evaluation, RAG, and agents**.
+Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, PEFT,inference optimization, RoPE, and KV Cache**.
+
 
 </div>
 </div>

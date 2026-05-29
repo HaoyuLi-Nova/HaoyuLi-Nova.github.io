@@ -56,7 +56,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # 💼 项目
 
-<div class='paper-box paper-box--stack'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · PyTorch、Diffusers、Jupyter Notebook
@@ -66,7 +66,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box paper-box--stack'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* ·**Decoder-only** · **预训练→SFT**

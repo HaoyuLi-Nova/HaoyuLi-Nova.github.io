@@ -15,7 +15,7 @@
 
 # 📝 发表论文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/S3Mamba-Pan.png" | relative_url }}' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/paper/S3Mamba-Pan.png" | relative_url }}' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral–Spatial–Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**

@@ -56,12 +56,26 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # 💼 项目
 
-- **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · PyTorch、Diffusers、Jupyter Notebook  
-  - 系统化整理并工程化维护了一个扩散模型实战课程，覆盖 DDPM、DDIM、Diffusers、Stable Diffusion、CFG、LoRA、ControlNet、SDXL、DiT、Flow Matching 和视频生成等内容，并提供文档站、学习路径、运行环境说明和实践 notebook。
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- **[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026年 4 月* · Datawhale · **Decoder-only** · **预训练→SFT**  
-  - 共建 **Happy-LLM**（**30k+ star**），围绕大语言模型的核心链路组织可运行的教学与实践材料，覆盖 **注意力机制、Tokenizer、RoPE 与 KV Cache** 等关键模块。  
-  - 将 **预训练、指令微调、PEFT 与推理优化** 串联为完整工程流程，强调数据构造、训练目标、优化策略、显存管理与稳定性实践，并延伸至 **评测、RAG** 与 **Agent** 应用。
+**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · PyTorch、Diffusers、Jupyter Notebook
+
+- 系统化整理并工程化维护了一个扩散模型实战课程，覆盖 **DDPM、DDIM、Diffusers、Stable Diffusion、CFG、LoRA、ControlNet、SDXL、DiT、Flow Matching 和视频生成** 等内容，并提供文档站、学习路径、运行环境说明和实践 notebook。
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* · Datawhale · **Decoder-only** · **预训练→SFT**
+
+- 共建 **Happy-LLM**（**30k+ star**），围绕大语言模型的核心链路组织可运行的教学与实践材料，覆盖 **注意力机制、Tokenizer、RoPE 与 KV Cache** 等关键模块。
+- 将 **预训练、指令微调、PEFT 与推理优化** 串联为完整工程流程，强调数据构造、训练目标、优化策略、显存管理与稳定性实践，并延伸至 **评测、RAG** 与 **Agent** 应用。
+
+</div>
+</div>
 
 - **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *2025 年 4 月 – 8 月* · ROS、强化学习
   - 面向小米 CyberDog 构建具身控制系统，基于 **ROS** 组织任务调度、实时视觉感知、车道跟随、二维码 / 标记识别与障碍导航模块，并通过传感信息融合把环境观测转化为可执行的运动决策。  

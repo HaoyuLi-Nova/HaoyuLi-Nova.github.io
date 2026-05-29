@@ -49,6 +49,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - Studied **federated prototype learning** for multi-center, multimodal psychiatric diagnosis, focusing on non-IID data, privacy constraints, and cross-domain generalization; designed topology-aware prototype modeling to reduce prototype shift and semantic mixing across heterogeneous clinical centers.
   - Designed a multimodal agentic diagnosis framework that organizes clinical text, structured scales, and multimodal evidence into a hierarchical reasoning chain.
   - Co-developed a multidimensional psychiatric benchmark, focusing on interpretability, robustness, and failure-mode diagnosis in complex settings; the dataset is released on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**.
+
 - **Intelligent Interface Center, Harbin Institute of Technology** - *Remote Research Intern* | Dec. 2025 - Present | Remote | Advisor: Prof. Tiejun Zhao
   - Contributed to **S3Mamba-Pan**, an efficient visual modeling project, studying the trade-offs among spatial detail, spectral consistency, and inference efficiency through frequency-decoupled dual-stream Mamba, Haar-wavelet decomposition, spectral anchors, and adaptive distribution recalibration.
   - **Time-series generation:** Developed **ChronoRect**, using rectified flow to model continuous distribution transport in clinical time-series data, and proposed **EHR-TriDiT** to improve synthetic fidelity, downstream utility, and empirical privacy safety, gaining hands-on understanding of flow matching, generative sampling, and conditional modeling.
@@ -66,9 +67,16 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-- **[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* | Datawhale | **Decoder-only** | **Pretraining -> SFT**
-  - Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, tokenization, RoPE, and KV Cache**.
-  - Connected **pretraining, instruction tuning, PEFT, and inference optimization** into an end-to-end engineering workflow, emphasizing data construction, training objectives, optimization strategies, memory management, stability practices, and extensions to **evaluation, RAG, and agents**.
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM: building large language models from scratch" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[Happy-LLM: Building Large Language Models from Scratch](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* | Datawhale | **Decoder-only** | **Pretraining -> SFT**
+
+- Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, tokenization, RoPE, and KV Cache**.
+- Connected **pretraining, instruction tuning, PEFT, and inference optimization** into an end-to-end engineering workflow, emphasizing data construction, training objectives, optimization strategies, memory management, stability practices, and extensions to **evaluation, RAG, and agents**.
+
+</div>
+</div>
 
 - **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* | ROS, reinforcement learning
   - Built an embodied control system for Xiaomi CyberDog, using **ROS** to coordinate task scheduling, real-time visual perception, lane following, QR / marker recognition, and obstacle-aware navigation, and converting fused sensor observations into executable motion decisions.

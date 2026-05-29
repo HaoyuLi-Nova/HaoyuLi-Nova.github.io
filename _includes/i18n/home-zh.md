@@ -79,9 +79,16 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-- **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *2025 年 4 月 – 8 月* · ROS、强化学习
-  - 面向小米 CyberDog 构建具身控制系统，基于 **ROS** 组织任务调度、实时视觉感知、车道跟随、二维码 / 标记识别与障碍导航模块，并通过传感信息融合把环境观测转化为可执行的运动决策。  
-  - 将视觉目标识别结果映射为任务状态与动作约束，设计低层运动接口和 **LCMT** 轨迹跟踪链路；结合强化学习引导的运动策略调参与实时反馈修正，提升在传感噪声、动作延迟和场景扰动下的闭环执行稳定性。
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ "/images/project/CyberMars.mp4" | relative_url }}' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *2025 年 4 月 – 8 月* · ROS、强化学习
+
+- 面向小米 CyberDog 构建具身控制系统，基于 **ROS** 组织任务调度、实时视觉感知、车道跟随、二维码 / 标记识别与障碍导航模块，并通过传感信息融合把环境观测转化为可执行的运动决策。  
+- 将视觉目标识别结果映射为任务状态与动作约束，设计低层运动接口和 **LCMT** 轨迹跟踪链路；结合强化学习引导的运动策略调参与实时反馈修正，提升在传感噪声、动作延迟和场景扰动下的闭环执行稳定性。
+
+</div>
+</div>
 
 - **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** — *2025 年 12 月 – 2026 年 4 月* · WPF、MVVM、QuestPDF  
   - 面向 **妇科超声** 的真实报告流程设计结构化桌面系统，将临床表单拆解为可组合的状态单元，并通过病灶选项联动与 **O-RADS** 分级辅助降低重复录入和规则遗漏。  

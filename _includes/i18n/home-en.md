@@ -80,9 +80,16 @@ Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and pr
 </div>
 </div>
 
-- **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* · ROS reinforcement learning
-  - Built an embodied control system for Xiaomi CyberDog, using **ROS** to coordinate task scheduling, real-time visual perception, lane following, QR / marker recognition, and obstacle-aware navigation, and converting fused sensor observations into executable motion decisions.
-  - Mapped visual recognition outputs into task states and action constraints, designed low-level motion interfaces and an **LCMT** trajectory-tracking pipeline, and combined reinforcement-learning-guided policy tuning with real-time feedback correction to improve closed-loop stability under sensor noise, action delay, and scene disturbance.
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ "/images/project/CyberMars.mp4" | relative_url }}' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* · ROS reinforcement learning
+
+- Built an embodied control system for Xiaomi CyberDog, using **ROS** to coordinate task scheduling, real-time visual perception, lane following, QR / marker recognition, and obstacle-aware navigation, and converting fused sensor observations into executable motion decisions.
+- Mapped visual recognition outputs into task states and action constraints, designed low-level motion interfaces and an **LCMT** trajectory-tracking pipeline, and combined reinforcement-learning-guided policy tuning with real-time feedback correction to improve closed-loop stability under sensor noise, action delay, and scene disturbance.
+
+</div>
+</div>
 
 - **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** - *Dec. 2025 - Apr. 2026* · WPF MVVM QuestPDF
   - Designed a structured desktop reporting system for real **gynecological ultrasound** workflows, decomposing clinical forms into composable state units and using lesion-option dependencies with **O-RADS** grading assistance to reduce repetitive input and rule omissions.

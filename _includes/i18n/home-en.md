@@ -1,8 +1,10 @@
+<div id="about-me"></div>
+
 Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan University](https://www.whu.edu.cn/). His research interests include **world models**, **diffusion models**, **multimodal learning**, **efficient inference**, and **embodied AI**. He has been a research assistant at the MARS Lab, Wuhan University, and a remote research intern at the Intelligent Interface Center, Harbin Institute of Technology.
 
 Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158-2700-2669**
 
-# News
+# News {#news}
 
 - *2026.05*: Released **Diffusion Models from Zero to Hero** as an open-source course; contributions are welcome.
 - *2026.04*: **Project approved**, National College Students' Innovation and Entrepreneurship Training Program.
@@ -13,7 +15,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** | **+86-158
 - *2025.05*: **Honorable Mention**, Mathematical Contest in Modeling.
 - *2024.11*: **Hubei Province Second Prize**, National College Student Mathematics Competition.
 
-# Publications
+# Publications {#publications}
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ "/images/paper/S3Mamba-Pan.png" | relative_url }}' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -27,7 +29,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-# Honors and Awards
+# Honors and Awards {#honors-and-awards}
 
 - *2025* **Meritorious Student Leader**, Wuhan University
 - *2025* **Wuhan University Merit Student**
@@ -37,13 +39,13 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 - *2025* **Honorable Mention**, Mathematical Contest in Modeling
 - *2026* **Project Approved**, National College Students' Innovation and Entrepreneurship Training Program
 
-# Education
+# Education {#education}
 
 - *Sept. 2023 - June 2027 (expected)*, **Bachelor of Engineering in Computer Science**, [Wuhan University](https://www.whu.edu.cn/), Wuhan, China
   - **GPA:** 3.67 / 4.0
   - **Selected coursework:** Data Structures (97), Algorithm Design and Analysis (92), Computer Graphics (92), Fundamentals of Software Construction (94), Advanced Mathematics (96), Probability Theory and Mathematical Statistics (92)
 
-# Research Experience
+# Research Experience {#research-experience}
 
 - **MARS Lab, Wuhan University** - *Research Assistant* | Apr. 2025 - Present | Wuhan, China | Advisor: Prof. Mang Ye
   - Studied **federated prototype learning** for multi-center, multimodal psychiatric diagnosis, focusing on non-IID data, privacy constraints, and cross-domain generalization; designed topology-aware prototype modeling to reduce prototype shift and semantic mixing across heterogeneous clinical centers.
@@ -55,7 +57,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - **Time-series generation:** Developed **ChronoRect**, using rectified flow to model continuous distribution transport in clinical time-series data, and proposed **EHR-TriDiT** to improve synthetic fidelity, downstream utility, and empirical privacy safety, gaining hands-on understanding of flow matching, generative sampling, and conditional modeling.
   - **Controllable video generation:** Studied region and trajectory conditioning in **object-centric text-to-video diffusion**, aiming to improve object motion control, identity preservation, attribute binding, and temporal consistency in generated videos.
 
-# Projects
+# Projects {#projects}
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -86,12 +88,12 @@ Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and pr
   - Designed a structured desktop reporting system for real **gynecological ultrasound** workflows, decomposing clinical forms into composable state units and using lesion-option dependencies with **O-RADS** grading assistance to reduce repetitive input and rule omissions.
   - Organized business logic, UI state, and PDF generation with **MVVM** and an **App / Core / Infrastructure** layered architecture; integrated **QuestPDF** for real-time preview and A4 medical-report export, serving **10,000+** patients and clinicians.
 
-# Leadership & Service
+# Leadership & Service {#leadership-service}
 
 - **Class monitor**, Wuhan University | Sept. 2023 - Present - responsible for a class of **31** students; coordinated academic, administrative, and collective affairs; organized **16** themed activities across class, college, and inter-college settings.
 - **Committee member, External Liaison Department** | Sept. 2023 - Present - facilitated **2** campus-enterprise collaborations; planned events reaching **5,000+** participants cumulatively.
 
-# Skills
+# Skills {#skills}
 
 - **Languages:** Mandarin (native), English (fluent)
 - **Programming:** Python, Java, C#, C++, SQL, Go

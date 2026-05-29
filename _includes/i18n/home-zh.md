@@ -62,7 +62,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* | Diffusers, Motion control
+**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · Diffusers, Motion control
 
 系统化整理并维护一个扩散模型实战课程，覆盖 **DDPM、DDIM、Diffusers、Stable Diffusion、CFG、LoRA、ControlNet、SDXL、DiT、Flow Matching 和视频生成**，并提供文档站、学习路径、环境配置说明和实践 notebook。
 
@@ -72,7 +72,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* | **Decoder-only** **Pretraining -> SFT**
+**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* · **Pretraining -> SFT**
 
 共建 **Happy-LLM**（**30k+ stars**），围绕大语言模型核心链路组织可运行的教学与实践材料，覆盖 **注意力机制、PEFT、推理优化、RoPE 和 KV Cache** 等关键模块。
 

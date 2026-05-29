@@ -62,7 +62,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/diffusion.png" | relative_url }}' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* | Diffusers, Motion control
+**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* · Diffusers, Motion control
 
 Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
 
@@ -72,7 +72,7 @@ Systematically organized and maintained a hands-on diffusion-model course coveri
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ "/images/project/happyllm.png" | relative_url }}' alt="Happy-LLM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* |  **Decoder-only** **Pretraining -> SFT**
+**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* · Pretraining -> SFT
 
 Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, PEFT,inference optimization, RoPE, and KV Cache**.
 
@@ -80,11 +80,11 @@ Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and pr
 </div>
 </div>
 
-- **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* | ROS, reinforcement learning
+- **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* · ROS reinforcement learning
   - Built an embodied control system for Xiaomi CyberDog, using **ROS** to coordinate task scheduling, real-time visual perception, lane following, QR / marker recognition, and obstacle-aware navigation, and converting fused sensor observations into executable motion decisions.
   - Mapped visual recognition outputs into task states and action constraints, designed low-level motion interfaces and an **LCMT** trajectory-tracking pipeline, and combined reinforcement-learning-guided policy tuning with real-time feedback correction to improve closed-loop stability under sensor noise, action delay, and scene disturbance.
 
-- **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** - *Dec. 2025 - Apr. 2026* | WPF, MVVM, QuestPDF
+- **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** - *Dec. 2025 - Apr. 2026* · WPF MVVM QuestPDF
   - Designed a structured desktop reporting system for real **gynecological ultrasound** workflows, decomposing clinical forms into composable state units and using lesion-option dependencies with **O-RADS** grading assistance to reduce repetitive input and rule omissions.
   - Organized business logic, UI state, and PDF generation with **MVVM** and an **App / Core / Infrastructure** layered architecture; integrated **QuestPDF** for real-time preview and A4 medical-report export, serving **10,000+** patients and clinicians.
 

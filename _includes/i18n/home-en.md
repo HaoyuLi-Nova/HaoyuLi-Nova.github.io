@@ -4,6 +4,14 @@ Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan Universit
 
 Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
 
+<div class="notice notice--info" markdown="1">
+
+#### Vision
+
+My ambition is to become a scientist who helps advance humanity. I am most drawn to **3D computer vision**, **generative AI**, and **embodied intelligence**. I aim to build powerful generative models that learn **compact representations** of the world—representations we can both perceive and synthesize—and use them to **understand** physical environments, **interact** with them, and **reason** about them. This is the path I intend to pursue throughout my career.
+
+</div>
+
 # News {#news}
 
 - *2026.06*: Released **SkyArm-VLA**, an embodied vision-language-action project for robotic arm manipulation.
@@ -18,7 +26,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-15
 
 # Publications {#publications}
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/images/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/assets/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral-Spatial-Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
@@ -59,7 +67,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # Projects {#projects}
 
-<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/SkyArm-VLA.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/assets/project/SkyArm-VLA.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[SkyArm-VLA](https://github.com/HaoyuLi-Nova/SkyArm-VLA)** - *Apr. 2026 - June 2026* · Vision-Language-Action, robotic manipulation, LeRobot, embodied AI
@@ -70,7 +78,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/assets/project/diffusion.png' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* · Diffusers, Stable Diffusion, LoRA, ControlNet, video generation
@@ -81,7 +89,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/happyllm.png' alt="Happy-LLM" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/assets/project/happyllm.png' alt="Happy-LLM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* · Decoder-only, Pretraining -> SFT, LLM engineering
@@ -92,7 +100,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/CyberMars.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/assets/project/CyberMars.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** - *Apr. 2025 - Aug. 2025* · ROS reinforcement learning

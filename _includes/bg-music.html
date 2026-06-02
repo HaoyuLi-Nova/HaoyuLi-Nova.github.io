@@ -1,0 +1,17 @@
+<div id="bg-music-root" class="bg-music" hidden>
+  <audio id="bg-music-audio" loop preload="none" src="{{ '/assets/audio/Horizons.mp3' | relative_url }}"></audio>
+  <button
+    type="button"
+    id="bg-music-toggle"
+    class="bg-music__btn"
+    aria-pressed="false"
+    data-label-play-en="Play background music"
+    data-label-play-zh="播放背景音乐"
+    data-label-pause-en="Pause background music"
+    data-label-pause-zh="暂停背景音乐"
+    title="Horizons — Scott Buckley (CC BY 4.0)"
+    aria-label="Play background music">
+    <i class="fas fa-music bg-music__icon bg-music__icon--play" aria-hidden="true"></i>
+    <i class="fas fa-pause bg-music__icon bg-music__icon--pause" aria-hidden="true"></i>
+  </button>
+</div>

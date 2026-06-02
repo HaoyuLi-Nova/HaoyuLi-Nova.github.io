@@ -69,6 +69,7 @@
       try { MathJax.Hub.Queue(['Typeset', MathJax.Hub, mount]); } catch (e) {}
     }
     window.dispatchEvent(new Event('resize'));
+    window.dispatchEvent(new CustomEvent('i18n-lang-changed', { detail: { lang: lang } }));
   }
 
   function pushLangUrl(lang) {

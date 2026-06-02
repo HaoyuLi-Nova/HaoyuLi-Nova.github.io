@@ -4,6 +4,14 @@
 
 联系方式：**[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
 
+<div class="notice notice--info" markdown="1">
+
+#### 愿景
+
+我的志向是成为一名**推动人类进步**的科学家。研究方向聚焦于**三维计算机视觉**、**生成式人工智能**与**具身智能**。我致力于构建强大的生成模型：学习**感知并生成**环境的紧凑表征，并以此为桥梁**理解**物理世界、**与之交互**并开展**推理**。这将是我长期追寻的研究道路。
+
+</div>
+
 # 动态 {#news}
 
 - *2026.06*：发布 **SkyArm-VLA**，面向机械臂操作的具身视觉-语言-动作项目。
@@ -18,7 +26,7 @@
 
 # 发表论文 {#publications}
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/images/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/assets/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral-Spatial-Scale Mamba With Frequency-Decoupled Dual-Stream for Pansharpening**
@@ -59,7 +67,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # 项目 {#projects}
 
-<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/SkyArm-VLA.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/assets/project/SkyArm-VLA.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[SkyArm-VLA](https://github.com/HaoyuLi-Nova/SkyArm-VLA)** — *2026 年 4 月 – 2026 年 6 月* · Vision-Language-Action、机械臂操作、LeRobot、具身智能
@@ -70,7 +78,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/assets/project/diffusion.png' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · Diffusers、Stable Diffusion、LoRA、ControlNet、视频生成
@@ -81,7 +89,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/happyllm.png' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/assets/project/happyllm.png' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Happy-LLM](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* · Decoder-only、Pretraining -> SFT、LLM engineering
@@ -92,7 +100,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/CyberMars.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/assets/project/CyberMars.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[CyberMars: Intelligent CyberDog Robotics Control](https://github.com/HaoyuLi-Nova/CyberMars)** — *2025 年 4 月 – 8 月* · ROS、强化学习

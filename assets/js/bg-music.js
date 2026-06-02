@@ -10,7 +10,6 @@
 
   root.hidden = false;
 
-  var wasPlayingBeforeHide = false;
   var fadeTimer = null;
 
   function pageLang() {
@@ -92,18 +91,6 @@
   }
 
   btn.addEventListener('click', toggle);
-
-  document.addEventListener('visibilitychange', function () {
-    if (document.hidden) {
-      wasPlayingBeforeHide = !audio.paused;
-      if (wasPlayingBeforeHide) {
-        clearFade();
-        audio.pause();
-      }
-    } else if (wasPlayingBeforeHide) {
-      playMusic();
-    }
-  });
 
   audio.addEventListener('ended', function () {
     /* loop attribute handles repeat; guard for browsers */

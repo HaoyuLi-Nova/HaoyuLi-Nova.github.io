@@ -1,6 +1,6 @@
 <div id="about-me"></div>
 
-Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan University](https://www.whu.edu.cn/). His research interests include **world models**, **diffusion models**, **multimodal learning**, **efficient inference**, and **embodied AI**. He has been a research assistant at the MARS Lab, Wuhan University, and a remote research intern at the Intelligent Interface Center, Harbin Institute of Technology.
+Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan University](https://www.whu.edu.cn/). His research interests include **3D computer vision**, **multimodal learning**, **generative AI**, and **embodied intelligence**. He has been a research assistant at the MARS Lab, Wuhan University, under [Prof. Mang Ye](https://marswhu.github.io/bio/bio.html), and a remote research intern at the Intelligent Interface Center, Harbin Institute of Technology, under [Prof. Tiejun Zhao](https://homepage.hit.edu.cn/zhaotiejun).
 
 Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
 
@@ -8,7 +8,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-15
 
 #### Vision
 
-My ambition is to become a scientist who helps advance humanity. I am most drawn to **3D computer vision**, **generative AI**, and **embodied intelligence**. I aim to build powerful generative models that learn **compact representations** of the world—representations we can both perceive and synthesize—and use them to **understand** physical environments, **interact** with them, and **reason** about them. This is the path I intend to pursue throughout my career.
+My ambition is to become a scientist who helps advance humanity. I am most drawn to **3D computer vision**, **multimodal learning**, **generative AI**, and **embodied intelligence**. I aim to build powerful generative models that learn **compact representations** of the world—representations we can both perceive and synthesize—and use them to **understand** physical environments, **interact** with them, and **reason** about them. This is the path I intend to pursue throughout my career.
 
 </div>
 

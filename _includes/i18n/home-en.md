@@ -6,6 +6,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-15
 
 # News {#news}
 
+- *2026.06*: Released **SkyArm-VLA**, an embodied vision-language-action project for robotic arm manipulation.
 - *2026.05*: Released **Diffusion Models from Zero to Hero** as an open-source course; contributions are welcome.
 - *2026.04*: **Project approved**, National College Students' Innovation and Entrepreneurship Training Program.
 - *2026.04*: *S3Mamba-Pan* was accepted by **IEEE TGRS** with DOI [10.1109/TGRS.2026.3686021](https://doi.org/10.1109/TGRS.2026.3686021).
@@ -58,6 +59,18 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - **Controllable video generation:** Studied region and trajectory conditioning in **object-centric text-to-video diffusion**, aiming to improve object motion control, identity preservation, attribute binding, and temporal consistency in generated videos.
 
 # Projects {#projects}
+
+<div class='paper-box'><div class='paper-box-image'><div><video src='{{ site.baseurl }}/images/project/SkyArm-VLA.mp4' autoplay loop muted playsinline preload="metadata" width="100%"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[SkyArm-VLA](https://github.com/HaoyuLi-Nova/SkyArm-VLA)** - *Apr. 2026 - June 2026* · Vision-Language-Action, robotic manipulation, LeRobot, embodied AI
+
+- Built a robotic-arm VLA project around **LingBot-VLA**, adapting a pretrained vision-language-action model to a custom desktop manipulation setting and connecting language-conditioned perception with executable robot actions.
+- Completed the post-training workflow from **LeRobot** data collection, camera/robot-state alignment, action-space mapping, and action-expert training to open-loop evaluation and WebSocket-based remote inference deployment.
+- Studied the practical gap between high-level embodied reasoning and low-level control, including instruction grounding, visual observation design, trajectory representation, latency-aware inference, and failure cases in real robotic manipulation.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

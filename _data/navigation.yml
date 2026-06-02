@@ -15,6 +15,9 @@ main:
   - title: "Education"
     url: "#education"
 
+  - title: "Selected Coursework"
+    url: "#selected-coursework"
+
   - title: "Research Experience"
     url: "#research-experience"
 

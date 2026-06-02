@@ -54,6 +54,20 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - **GPA:** 3.67 / 4.0
   - **Selected coursework:** Data Structures (97), Algorithm Design and Analysis (92), Computer Graphics (92), Fundamentals of Software Construction (94), Advanced Mathematics (96), Probability Theory and Mathematical Statistics (92)
 
+# Selected Coursework & Self-Study {#selected-coursework}
+
+Beyond my formal curriculum at Wuhan University, I completed a focused self-study track in **generative modeling**, **3D vision**, and **inverse graphics** to prepare for research in world models and geometry-aware generation.
+
+**Generative modeling & diffusion**
+- [MIT 6.S183: A Practical Introduction to Diffusion Models](https://www.practical-diffusion.org/)
+- [MIT: Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/)
+- [Hugging Face Diffusion Models Course](https://huggingface.co/learn/diffusion-course)
+
+**3D vision & inverse graphics**
+- [Hugging Face ML for 3D](https://huggingface.co/learn/ml-for-3d-course)
+- [MIT: Machine Learning for Inverse Graphics](https://www.scenerepresentations.org/courses/2023/fall/inverse-graphics/) (Scene Representation Group)
+- [Stanford CS348N: Neural Models for 3D Geometry](http://graphics.stanford.edu/courses/cs348n-23-spring/)
+
 # Research Experience {#research-experience}
 
 - **MARS Lab, Wuhan University** - *Research Assistant* · Apr. 2025 - Present · Wuhan, China · Advisor: Prof. Mang Ye
@@ -110,10 +124,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 </div>
 </div>
-
-- **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** - *Dec. 2025 - Apr. 2026* · WPF MVVM QuestPDF
-  - Designed a structured desktop reporting system for real **gynecological ultrasound** workflows, decomposing clinical forms into composable state units and using lesion-option dependencies with **O-RADS** grading assistance to reduce repetitive input and rule omissions.
-  - Organized business logic, UI state, and PDF generation with **MVVM** and an **App / Core / Infrastructure** layered architecture; integrated **QuestPDF** for real-time preview and A4 medical-report export, serving **10,000+** patients and clinicians.
 
 # Leadership & Service {#leadership-service}
 

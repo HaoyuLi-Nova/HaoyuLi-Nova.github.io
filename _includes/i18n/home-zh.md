@@ -54,6 +54,20 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - **GPA：** 3.67 / 4.0
   - **部分课程：** 数据结构（97）、算法设计与分析（92）、计算机图形学（92）、软件构造基础（94）、高等数学（96）、概率论与数理统计（92）
 
+# 精选课程与自学 {#selected-coursework}
+
+除武汉大学正式课程外，我还系统完成了面向 **生成建模**、**三维视觉** 与 **逆图形学** 的自学训练，为 world model 与 geometry-aware generation 方向的研究做准备。
+
+**生成建模与扩散模型**
+- [MIT 6.S183: A Practical Introduction to Diffusion Models](https://www.practical-diffusion.org/)
+- [MIT: Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/)
+- [Hugging Face Diffusion Models Course](https://huggingface.co/learn/diffusion-course)
+
+**三维视觉与逆图形学**
+- [Hugging Face ML for 3D](https://huggingface.co/learn/ml-for-3d-course)
+- [MIT: Machine Learning for Inverse Graphics](https://www.scenerepresentations.org/courses/2023/fall/inverse-graphics/)（Scene Representation Group）
+- [Stanford CS348N: Neural Models for 3D Geometry](http://graphics.stanford.edu/courses/cs348n-23-spring/)
+
 # 科研经历 {#research-experience}
 
 - **武汉大学 MARS 实验室** — *科研助理* · 2025 年 4 月 – 至今 · 武汉 · 导师：叶茫教授
@@ -110,10 +124,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 </div>
 </div>
-
-- **[SURS: Structured Ultrasound Reporting System](https://github.com/HaoyuLi-Nova/SURS)** — *2025 年 12 月 – 2026 年 4 月* · WPF、MVVM、QuestPDF
-  - 面向 **妇科超声** 的真实报告流程设计结构化桌面系统，将临床表单拆解为可组合的状态单元，并通过病灶选项联动与 **O-RADS** 分级辅助降低重复录入和规则遗漏。
-  - 采用 **MVVM** 与 **App / Core / Infrastructure** 分层组织业务逻辑、界面状态和 PDF 生成链路，结合 **QuestPDF** 实现实时预览与 A4 医疗报告导出，累计服务 **10,000+** 患者与临床人员。
 
 # 学生工作与志愿服务 {#leadership-service}
 

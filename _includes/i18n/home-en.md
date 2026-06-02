@@ -52,7 +52,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - Studied **federated prototype learning** for multi-center, multimodal psychiatric diagnosis, focusing on non-IID data, privacy constraints, and cross-domain generalization; designed topology-aware prototype modeling to reduce prototype shift and semantic mixing across heterogeneous clinical centers.
   - Designed a multimodal agentic diagnosis framework that organizes clinical text, structured scales, and multimodal evidence into a hierarchical reasoning chain.
   - Co-developed a multidimensional psychiatric benchmark, focusing on interpretability, robustness, and failure-mode diagnosis in complex settings; the dataset is released on **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**.
-
 - **Intelligent Interface Center, Harbin Institute of Technology** - *Remote Research Intern* · Dec. 2025 - Present · Remote · Advisor: Prof. Tiejun Zhao
   - Contributed to **S3Mamba-Pan**, an efficient visual modeling project, studying the trade-offs among spatial detail, spectral consistency, and inference efficiency through frequency-decoupled dual-stream Mamba, Haar-wavelet decomposition, spectral anchors, and adaptive distribution recalibration.
   - **Time-series generation:** Developed **ChronoRect**, using rectified flow to model continuous distribution transport in clinical time-series data, and proposed **EHR-TriDiT** to improve synthetic fidelity, downstream utility, and empirical privacy safety, gaining hands-on understanding of flow matching, generative sampling, and conditional modeling.
@@ -67,7 +66,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 - Built a robotic-arm VLA project around **LingBot-VLA**, adapting a pretrained vision-language-action model to a custom desktop manipulation setting and connecting language-conditioned perception with executable robot actions.
 - Completed the post-training workflow from **LeRobot** data collection, camera/robot-state alignment, action-space mapping, and action-expert training to open-loop evaluation and WebSocket-based remote inference deployment.
-- Studied the practical gap between high-level embodied reasoning and low-level control, including instruction grounding, visual observation design, trajectory representation, latency-aware inference, and failure cases in real robotic manipulation.
 
 </div>
 </div>
@@ -75,9 +73,10 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero: hands-on course covering DDPM through video generation" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* · Diffusers, Motion control
+**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** - *Oct. 2025 - Present* · Diffusers, Stable Diffusion, LoRA, ControlNet, video generation
 
-Systematically organized and maintained a hands-on diffusion-model course covering **DDPM, DDIM, Diffusers, Stable Diffusion, CFG, LoRA, ControlNet, SDXL, DiT, Flow Matching, and video generation**, with a documentation site, learning path, environment setup notes, and practice notebooks.
+- Organized runnable notebooks and documentation around **Diffusers**, scheduler design, UNet training loops, fine-tuning, classifier-free guidance, class conditioning, **Stable Diffusion** components (VAE, CLIP text encoder, UNet, cross-attention), img2img, inpainting, and depth-to-image.
+- Covered **DDIM inversion**, DreamBooth personalization, audio spectrogram diffusion, toy video diffusion, troubleshooting notes, GPU-memory guidance, and a modern roadmap spanning **LoRA, ControlNet, SDXL, DiT, Flow Matching, and video models**.
 
 </div>
 </div>
@@ -85,10 +84,10 @@ Systematically organized and maintained a hands-on diffusion-model course coveri
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/happyllm.png' alt="Happy-LLM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* · Pretraining -> SFT
+**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** - *Aug. 2025 - Apr. 2026* · Decoder-only, Pretraining -> SFT, LLM engineering
 
-Co-developed **Happy-LLM** (**30k+ stars**), organizing runnable teaching and practice materials around the core pipeline of large language models, including **attention mechanisms, PEFT,inference optimization, RoPE, and KV Cache**.
-
+- Co-developed **Happy-LLM** (**30k+ stars**), organizing teaching and practice materials around building LLMs from scratch, covering tokenizer, embedding, Transformer decoder, attention, MLP, normalization, RoPE, and KV Cache.
+- Structured the end-to-end engineering workflow across **pretraining, supervised fine-tuning, PEFT, and inference optimization**, connecting data preparation, training objectives, memory management, inference caching, evaluation, and application extensions to bridge model understanding and runnable LLM practice.
 
 </div>
 </div>

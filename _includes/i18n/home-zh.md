@@ -52,7 +52,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
   - 研究多中心、多模态精神医学诊断中的 **联邦原型学习**，围绕非独立同分布数据、隐私约束与跨域泛化问题设计拓扑感知的原型建模思路，以缓解异质中心之间的原型偏移与语义混叠。
   - 设计多模态智能体诊断框架，将临床文本、结构化量表与多模态证据组织为层次化推理链。
   - 共同构建多维度精神医学基准，关注模型在复杂场景下的可解释性、鲁棒性与失效模式诊断；数据开源于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**。
-
 - **哈尔滨工业大学 智能接口技术中心** — *远程科研实习* · 2025 年 12 月 – 至今 · 远程 · 导师：赵铁军教授
   - 参与 **S³Mamba-Pan** 高效视觉建模研究，围绕频率解耦双流 Mamba、Haar 小波分解、光谱锚点与自适应分布再校准，理解遥感多模态图像融合中空间细节、光谱一致性与推理效率之间的权衡。
   - **时序生成：** 开发 **ChronoRect**，以 rectified flow 建模临床时序数据的连续分布传输，并提出 **EHR-TriDiT** 结构提升合成数据保真度、下游可用性与实证隐私安全性，形成对 flow matching、生成采样与条件建模的实作理解。
@@ -67,7 +66,6 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 - 围绕 **LingBot-VLA** 搭建机械臂 VLA 项目，将预训练视觉-语言-动作模型适配到自定义桌面操作场景，把语言指令理解、视觉观测与可执行机器人动作连接起来。
 - 完成从 **LeRobot** 数据采集、相机与机器人状态对齐、动作空间映射、动作专家后训练，到开环评估与 WebSocket 远程推理部署的完整后训练流程。
-- 系统梳理高层具身语义理解与底层控制之间的落差，关注指令落地、视觉观测设计、轨迹表示、推理延迟、动作平滑性以及真实机械臂操作中的失败模式。
 
 </div>
 </div>
@@ -75,9 +73,10 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/diffusion.png' alt="Diffusion Models from Zero to Hero：从 DDPM 到视频生成的扩散模型实战课程" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · Diffusers, Motion control
+**[Diffusion Models from Zero to Hero](https://github.com/HaoyuLi-Nova/Diffusion-Zero-to-Hero)** — *2025 年 10 月 – 至今* · Diffusers、Stable Diffusion、LoRA、ControlNet、视频生成
 
-系统化整理并维护一个扩散模型实战课程，覆盖 **DDPM、DDIM、Diffusers、Stable Diffusion、CFG、LoRA、ControlNet、SDXL、DiT、Flow Matching 和视频生成**，并提供文档站、学习路径、环境配置说明和实践 notebook。
+- 围绕 **Diffusers**、scheduler 设计、UNet 训练循环、微调、classifier-free guidance、类别条件生成、**Stable Diffusion** 组件（VAE、CLIP 文本编码器、UNet、cross-attention）、img2img、inpainting 与 depth-to-image 编写可运行 notebook 与文档。
+- 覆盖 **DDIM inversion**、DreamBooth 个性化、音频频谱图扩散、toy video diffusion、运行排查、显存优化建议，以及 **LoRA、ControlNet、SDXL、DiT、Flow Matching 和视频模型** 等现代路线图。
 
 </div>
 </div>
@@ -85,9 +84,10 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 <div class='paper-box'><div class='paper-box-image'><div><img src='{{ site.baseurl }}/images/project/happyllm.png' alt="Happy-LLM：从零开始构建大语言模型" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* · Pretraining -> SFT
+**[Happy-LLM](https://github.com/datawhalechina/happy-llm)** — *2025 年 8 月 – 2026 年 4 月* · Decoder-only、Pretraining -> SFT、LLM engineering
 
-共建 **Happy-LLM**（**30k+ stars**），围绕大语言模型核心链路组织可运行的教学与实践材料，覆盖 **注意力机制、PEFT、推理优化、RoPE 和 KV Cache** 等关键模块。
+- 共建 **Happy-LLM**（**30k+ stars**），围绕从零实现大语言模型的核心链路组织教学与实践材料，覆盖 tokenizer、embedding、Transformer decoder、attention、MLP、归一化、RoPE 与 KV Cache 等基础模块。
+- 梳理 **预训练、监督微调、PEFT 与推理优化** 的完整工程流程，将数据构造、训练目标、显存管理、推理缓存、模型评测与应用扩展串联起来，帮助读者从模型结构理解过渡到可运行的 LLM 实践。
 
 </div>
 </div>
@@ -117,3 +117,4 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 - **语言：** 中文（母语）、英文（流利）
 - **编程：** Python、Java、C#、C++、SQL、Go
 - **工具与框架：** PyTorch、Linux、Git、ROS、Docker
+

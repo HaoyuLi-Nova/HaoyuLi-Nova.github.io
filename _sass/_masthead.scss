@@ -104,9 +104,16 @@
   }
 }
 
-.masthead__language {
+.masthead__controls {
+  display: flex;
   flex: 0 0 auto;
+  align-items: center;
+  gap: 0.5rem;
   margin-left: auto;
+  white-space: nowrap;
+}
+
+.masthead__language {
   white-space: nowrap;
 
   a {

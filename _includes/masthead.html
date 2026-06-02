@@ -19,8 +19,11 @@
           {% endfor %}
         </ul>
       </nav>
-      <div class="masthead__language">
-        <a href="#" class="lang-toggle" role="button" data-i18n-toggle>{% if page.lang == 'zh' %}English{% else %}中文{% endif %}</a>
+      <div class="masthead__controls">
+        {% include theme-toggle.html %}
+        <div class="masthead__language">
+          <a href="#" class="lang-toggle" role="button" data-i18n-toggle>{% if page.lang == 'zh' %}English{% else %}中文{% endif %}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -49,8 +52,11 @@
           {% endfor %}
         </ul>
       </nav>
-      <div class="masthead__language">
-        <a href="{{ lang_switch_url | relative_url }}" class="lang-toggle">{{ lang_switch_label }}</a>
+      <div class="masthead__controls">
+        {% include theme-toggle.html %}
+        <div class="masthead__language">
+          <a href="{{ lang_switch_url | relative_url }}" class="lang-toggle">{{ lang_switch_label }}</a>
+        </div>
       </div>
     </div>
   </div>

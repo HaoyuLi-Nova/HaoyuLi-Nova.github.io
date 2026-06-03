@@ -8,7 +8,7 @@ Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-15
 
 #### Vision
 
-My ambition is to become a scientist who helps advance humanity. I am most drawn to **3D computer vision**, **multimodal learning**, **generative AI**, and **embodied intelligence**. I aim to build powerful generative models that learn **compact representations** of the world—representations we can both perceive and synthesize—and use them to **understand** physical environments, **interact** with them, and **reason** about them. This is the path I intend to pursue throughout my career.
+My ambition is to work at the intersection of **3D computer vision**, **multimodal learning**, **generative AI**, and **embodied intelligence**. I hope to study unified pipelines that move from **scene geometry and multimodal representations** to **generative world models** and **language-driven robot execution**, so that AI can not only **see and synthesize** plausible visual worlds, but also deliver **verifiable, deployable closed-loop capabilities** on real data and physical platforms. This is the research path I intend to pursue long term.
 
 </div>
 

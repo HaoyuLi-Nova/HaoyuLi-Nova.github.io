@@ -56,7 +56,15 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # Selected Coursework & Self-Study {#selected-coursework}
 
-Beyond my formal curriculum at Wuhan University, I completed a focused self-study track in **generative modeling**, **3D vision**, and **inverse graphics** to prepare for research in world models and geometry-aware generation.
+Beyond my formal curriculum at Wuhan University, I completed a focused self-study track in **robot learning**, **vision-language-action (VLA)**, **generative modeling**, and **3D vision** to prepare for research in embodied intelligence, world models, and geometry-aware generation.
+
+**Robot learning & embodied AI**
+- [CMU 16-831: Introduction to Robot Learning](https://16-831.github.io/)
+- [Berkeley CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/)
+
+**Vision-language-action & LeRobot**
+- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/unit0/1)
+- [LeRobot Robot Learning Tutorial](https://huggingface.co/spaces/lerobot/robot-learning-tutorial)
 
 **Generative modeling & diffusion**
 - [MIT 6.S183: A Practical Introduction to Diffusion Models](https://www.practical-diffusion.org/)

@@ -56,7 +56,15 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 
 # 精选课程与自学 {#selected-coursework}
 
-除武汉大学正式课程外，我还系统完成了面向 **生成建模**、**三维视觉** 与 **逆图形学** 的自学训练，为 world model 与 geometry-aware generation 方向的研究做准备。
+除武汉大学正式课程外，我还系统完成了面向 **机器人学习**、**视觉-语言-动作（VLA）**、**生成建模** 与 **三维视觉** 的自学训练，为具身智能、world model 与 geometry-aware generation 方向的研究做准备。
+
+**机器人学习与具身智能**
+- [CMU 16-831: Introduction to Robot Learning](https://16-831.github.io/)
+- [Berkeley CS285: Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/)
+
+**视觉-语言-动作（VLA）与 LeRobot**
+- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/unit0/1)
+- [LeRobot Robot Learning Tutorial](https://huggingface.co/spaces/lerobot/robot-learning-tutorial)
 
 **生成建模与扩散模型**
 - [MIT 6.S183: A Practical Introduction to Diffusion Models](https://www.practical-diffusion.org/)

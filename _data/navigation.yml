@@ -9,8 +9,11 @@ main:
   - title: "Publications"
     url: "#publications"
 
-  - title: "Honors and Awards"
-    url: "#honors-and-awards"
+  - title: "Research Experience"
+    url: "#research-experience"
+
+  - title: "Projects"
+    url: "#projects"
 
   - title: "Education"
     url: "#education"
@@ -18,11 +21,8 @@ main:
   - title: "Selected Coursework"
     url: "#selected-coursework"
 
-  - title: "Research Experience"
-    url: "#research-experience"
-
-  - title: "Projects"
-    url: "#projects"
+  - title: "Honors and Awards"
+    url: "#honors-and-awards"
 
   - title: "Leadership & Service"
     url: "#leadership-service"

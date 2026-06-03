@@ -9,8 +9,11 @@ main:
   - title: "发表论文"
     url: "#publications"
 
-  - title: "荣誉与奖项"
-    url: "#honors-and-awards"
+  - title: "科研经历"
+    url: "#research-experience"
+
+  - title: "项目"
+    url: "#projects"
 
   - title: "教育背景"
     url: "#education"
@@ -18,11 +21,8 @@ main:
   - title: "精选课程"
     url: "#selected-coursework"
 
-  - title: "科研经历"
-    url: "#research-experience"
-
-  - title: "项目"
-    url: "#projects"
+  - title: "荣誉与奖项"
+    url: "#honors-and-awards"
 
   - title: "学生工作与志愿服务"
     url: "#leadership-service"

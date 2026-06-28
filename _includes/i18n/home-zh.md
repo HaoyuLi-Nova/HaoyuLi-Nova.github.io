@@ -2,7 +2,7 @@
 
 李浩宇是 [武汉大学](https://www.whu.edu.cn/) **计算机科学与技术**专业本科生。研究兴趣包括 **三维计算机视觉**、**多模态**、**生成式人工智能** 与 **具身智能**。曾在武汉大学 MARS 实验室 [叶茫教授](https://marswhu.github.io/bio/bio.html) 组担任科研助理，并在哈尔滨工业大学智能接口技术中心 [赵铁军教授](https://homepage.hit.edu.cn/zhaotiejun) 组远程实习。
 
-联系方式：**[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
+联系方式：**[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669** · **[简历 (PDF)]({{ site.baseurl }}/assets/cv/CV.pdf)**
 
 <div class="notice notice--info" markdown="1">
 
@@ -14,6 +14,7 @@
 
 # 动态 {#news}
 
+- *2026.06*：*FedMental* 被 **ECCV 2026** 接收。
 - *2026.06*：发布 **SkyArm-VLA**，面向机械臂操作的具身视觉-语言-动作项目。
 - *2026.05*：**Diffusion Models from Zero to Hero** 作为开源课程发布，欢迎贡献。
 - *2026.04*：**大学生创新创业训练计划** 国家级项目立项。
@@ -25,6 +26,18 @@
 - *2024.11*：**全国大学生数学竞赛** 湖北赛区二等奖。
 
 # 发表论文 {#publications}
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='{{ site.baseurl }}/assets/paper/FedMental.png' alt="FedMental 框架：面向多态多模态精神医学的拓扑感知联邦原型学习" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FedMental: Topology-Aware Federated Prototype Learning for Polymorphic Multimodal Psychiatry**
+
+**Haoyu Li**; He Li; Wenke Huang; Yujing Rao; Xiaofen Zong; Mang Ye
+
+*European Conference on Computer Vision (ECCV)*，**2026**。
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/assets/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan 框架：频率解耦双流 Mamba 用于全色锐化" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -51,7 +64,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 # 教育背景 {#education}
 
 - *2023 年 9 月 – 2027 年 6 月（预计）*，**计算机科学与技术 工学学士**，[武汉大学](https://www.whu.edu.cn/)，武汉
-  - **GPA：** 3.67 / 4.0
+  - **GPA：** 91.75 / 100
   - **部分课程：** 数据结构（97）、算法设计与分析（92）、计算机图形学（92）、软件构造基础（94）、高等数学（96）、概率论与数理统计（92）
 
 # 精选课程与自学 {#selected-coursework}
@@ -79,13 +92,13 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 # 科研经历 {#research-experience}
 
 - **武汉大学 MARS 实验室** — *科研助理* · 2025 年 4 月 – 至今 · 武汉 · 导师：叶茫教授
-  - 研究多中心、多模态精神医学诊断中的 **联邦原型学习**，围绕非独立同分布数据、隐私约束与跨域泛化问题设计拓扑感知的原型建模思路，以缓解异质中心之间的原型偏移与语义混叠。
-  - 设计多模态智能体诊断框架，将临床文本、结构化量表与多模态证据组织为层次化推理链。
-  - 共同构建多维度精神医学基准，关注模型在复杂场景下的可解释性、鲁棒性与失效模式诊断；数据开源于 **[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**。
+  - 研究多中心、多模态精神医学诊断中的 **联邦学习**，围绕非独立同分布数据、隐私约束与跨域泛化问题设计拓扑感知的原型建模思路，以缓解异质中心之间的原型偏移与语义混叠。
+  - 提出模拟临床 MDT 会诊流程的多智能体推理范式，融合文本/语音/视觉等多模态数据，解决了多模态融合与可解释性难题，准确率比现有 SOTA 方法高出 18.9%。
+  - 构建大规模多模态医学数据基准，提出 MDDF 模态动态分解融合基线模型设计, 数据集开源至哈佛 Datavers**[Harvard Dataverse](https://doi.org/10.7910/DVN/QW23QP)**。
 - **哈尔滨工业大学 智能接口技术中心** — *远程科研实习* · 2025 年 12 月 – 至今 · 远程 · 导师：赵铁军教授
-  - 参与 **S³Mamba-Pan** 高效视觉建模研究，围绕频率解耦双流 Mamba、Haar 小波分解、光谱锚点与自适应分布再校准，理解遥感多模态图像融合中空间细节、光谱一致性与推理效率之间的权衡。
-  - **时序生成：** 开发 **ChronoRect**，以 rectified flow 建模临床时序数据的连续分布传输，并提出 **EHR-TriDiT** 结构提升合成数据保真度、下游可用性与实证隐私安全性，形成对 flow matching、生成采样与条件建模的实作理解。
-  - **可控视频生成：** 研究 **object-centric text-to-video diffusion** 中的区域与轨迹条件控制，目标是提升生成视频中的物体运动控制、身份保持、属性绑定与时间一致性。
+  - 出频率解耦双流 Mamba 架构，通过 Haar 小波多尺度分解实现高低频特征分离建模，引入光谱锚点对齐与自适应分布再校准机制，解决了遥感多模态融合中空间细节丢失、光谱畸变与推理效率三者的固有矛盾，在多个公开数据集上同时取得精度与速度的 SOTA 性能。
+  - 研究时序生成，开发 **ChronoRect**，以 rectified flow 建模临床时序数据的连续分布传输，解耦扩散中的双流时间，并提出 **EHR-TriDiT** 结构。
+  - 研究可控视频生成，聚焦以物体为中心的文本到视频生成任务，分析区域掩码与运动轨迹的细粒度条件控制机制，解决生成视频中物体运动偏差、身份漂移、属性错配与时间不一致性的痛点。
 
 # 项目 {#projects}
 

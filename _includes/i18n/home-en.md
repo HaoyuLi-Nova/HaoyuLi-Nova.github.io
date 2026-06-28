@@ -2,7 +2,7 @@
 
 Haoyu Li is an undergraduate student in **Computer Science** at [Wuhan University](https://www.whu.edu.cn/). His research interests include **3D computer vision**, **multimodal learning**, **generative AI**, and **embodied intelligence**. He has been a research assistant at the MARS Lab, Wuhan University, under [Prof. Mang Ye](https://marswhu.github.io/bio/bio.html), and a remote research intern at the Intelligent Interface Center, Harbin Institute of Technology, under [Prof. Tiejun Zhao](https://homepage.hit.edu.cn/zhaotiejun).
 
-Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669**
+Contact: **[haoyuli404@outlook.com](mailto:haoyuli404@outlook.com)** · **+86-158-2700-2669** · **[CV (PDF)]({{ site.baseurl }}/assets/cv/CV.pdf)**
 
 <div class="notice notice--info" markdown="1">
 
@@ -14,6 +14,7 @@ My ambition is to work at the intersection of **3D computer vision**, **multimod
 
 # News {#news}
 
+- *2026.06*: *FedMental* was accepted to **ECCV 2026**.
 - *2026.06*: Released **SkyArm-VLA**, an embodied vision-language-action project for robotic arm manipulation.
 - *2026.05*: Released **Diffusion Models from Zero to Hero** as an open-source course; contributions are welcome.
 - *2026.04*: **Project approved**, National College Students' Innovation and Entrepreneurship Training Program.
@@ -25,6 +26,18 @@ My ambition is to work at the intersection of **3D computer vision**, **multimod
 - *2024.11*: **Hubei Province Second Prize**, National College Student Mathematics Competition.
 
 # Publications {#publications}
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='{{ site.baseurl }}/assets/paper/FedMental.png' alt="FedMental framework: topology-aware federated prototype learning for polymorphic multimodal psychiatry" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FedMental: Topology-Aware Federated Prototype Learning for Polymorphic Multimodal Psychiatry**
+
+**Haoyu Li**; He Li; Wenke Huang; Yujing Rao; Xiaofen Zong; Mang Ye
+
+*European Conference on Computer Vision (ECCV)*, **2026**.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='{{ site.baseurl }}/assets/paper/S3Mamba-Pan.png' alt="S3Mamba-Pan framework: frequency-decoupled dual-stream Mamba for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

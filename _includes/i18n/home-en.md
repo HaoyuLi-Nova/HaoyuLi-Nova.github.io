@@ -64,7 +64,7 @@ Zishun Song; Yao Zhang; **Haoyu Li**; Yanlin He; Jiawei Zhao; Yi Yang; Wei Zhang
 # Education {#education}
 
 - *Sept. 2023 - June 2027 (expected)*, **Bachelor of Engineering in Computer Science**, [Wuhan University](https://www.whu.edu.cn/), Wuhan, China
-  - **GPA:** 3.67 / 4.0
+  - **GPA:** 91.75 / 100
   - **Selected coursework:** Data Structures (97), Algorithm Design and Analysis (92), Computer Graphics (92), Fundamentals of Software Construction (94), Advanced Mathematics (96), Probability Theory and Mathematical Statistics (92)
 
 # Selected Coursework & Self-Study {#selected-coursework}
